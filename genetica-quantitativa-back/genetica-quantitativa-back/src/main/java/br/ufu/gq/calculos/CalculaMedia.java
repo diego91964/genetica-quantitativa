@@ -33,4 +33,6 @@ public class CalculaMedia {
 		
 		return somaValores.divide(somaFrequencia);
 	}
+	
+	
 }

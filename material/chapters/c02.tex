@@ -1,0 +1,73 @@
+
+%----------------------------------------------------------------------------------------
+%	CHAPTER 2
+%----------------------------------------------------------------------------------------
+
+\chapter{Parâmetros Genéticos}
+
+\section{Herdabilidade}
+
+A herdabilidade é um coeficiente que expressa a relação entre a variância genotípica e a variância fenotípica, ou seja, mede o nível da correspondência entre o fenótipo e o valor genético. 
+
+\begin{definition}[Dedução de Herdabilidade]
+
+\begin{align}
+&  r = \frac{Cov(x,y)}{\sqrt{v(x) \times v(y)}} \\
+&  r(F,G) = \frac{Cov(F,G)}{\sqrt{v(F) \times v(G)}} \\
+&  r(F,G) = \frac{Cov(G+A,G)}{\sqrt{v(F) \times v(G)}} \\
+&  r(F,G) = \frac{Cov(G,G) + Cov(G,A)}{\sqrt{v(F) \times v(G)}} \\
+&  Como: Cov(G,A) = 0 \\
+&  \rightarrow r(F,G) = \frac{Cov(G,G)}{\sqrt{v(F) \times v(G)}} \\
+&  Como: Cov(X,X) = V(X) \\
+&  \rightarrow r(F,G) = \frac{V(G)}{\sqrt{v(F) \times v(G)}} \\
+&  r(F,G) = \sqrt{\frac{[V(G)]^2}{v(F) \times v(G)}} \\
+&  r(F,G) = \sqrt{\frac{[V(G)]}{v(F)}} \\
+&  Como: H = \frac{[V(G)]}{v(F)} \\
+&  \rightarrow  r(F,G) = \sqrt{H^2} \\
+\end{align}
+\end{definition}
+
+
+\begin{definition}[Fórmula da Herdabilidade]
+
+\begin{align}
+&  H^2 = \frac{V(G)}{V(F)} \\
+\end{align}
+\end{definition}
+
+O valor da herdabilidade pode variar entre 0 e 1. Por definição, quando o valor da herdabilidade é maior que 0,7 é considerado alto para plantas. Em caso de animas, pode variar entre 0,3 e 0,4.
+
+
+
+\subsection{Ganho de Seleção}
+
+\begin{definition}[Fórmula do Ganho de Seleção (GS)]
+
+\begin{align}
+& GS = H^2 \times (\overline{X}_s - \overline{X}_0) \\
+\end{align}
+Sendo Xs a média dos indivíduos selecionados e X0 a média inicial dos indivíduos.
+\end{definition}
+
+
+\subsection{Média Predita}
+
+\begin{definition}[Fórmula Média Predita (Xm)]
+
+\begin{align}
+& Xm = GS + \overline{X}_0 \\
+\end{align}
+\end{definition}
+
+
+\subsection{Número de Genes}
+
+
+\begin{definition}[Fórmula Número de Genes (Nrg)]
+
+\begin{align}
+& Nrg = \frac{(\overline{P_1} - \overline{P_2})^2}{8 \times V(G)_{F1}} \\
+\end{align}
+Sendo P1 a média dos parentais 1 e  P2 a média dos parentais 2 
+\end{definition}
+
