@@ -1,0 +1,58 @@
+<app-page-header [heading]="'Componentes da Variância'" [icon]="'fa-edit'"></app-page-header>
+
+<div class="card-header">Tabela</div>
+<div class="card-body table-responsive">
+    <table class="table table-hover table-striped" *ngIf = "tabela[0]">
+        <thead>
+        <tr>
+            <th>Cultivar</th>
+            <th *ngFor = "let bloco of tabela[0].blocos ; let idx = index">Bloco-{{idx}}</th>
+            <th>Soma Blocos</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr *ngFor = "let linhaTabela of tabela" >
+            <td > {{linhaTabela.cultivar}}</td>
+            <td *ngFor = "let blocoTabela of linhaTabela.blocos">{{blocoTabela}}</td>
+            <td > {{linhaTabela.somaBlocos}}</td>
+        </tr>
+    </tbody>
+    </table>
+</div>
+
+<fieldset>
+  <label>Escala de Precisão (.000)</label>
+  <select class="form-control">
+  <option>1</option>
+  <option>2</option>
+  <option>3</option>
+  <option>4</option>
+  <option>5</option>
+</select>
+</fieldset>
+
+<br/>
+
+<fieldset class="form-group">
+    <label>Padrão Utilizado:</label>
+    <label class="radio-inline">
+        <input type="radio" name="optionsRadiosInline" id="optionsRadiosInline1" value="option1" checked=""> Padrão Genes
+    </label>
+    <label class="radio-inline">
+        <input type="radio" name="optionsRadiosInline" id="optionsRadiosInline2" value="option2"> Padrão AP
+    </label>
+</fieldset>
+
+<div class="checkbox">
+    <label>
+        <input type="checkbox" value=""> Primeira Linha Rótulo
+    </label>
+</div>
+
+<fieldset class="form-group">
+    <label>Tabela</label>
+    <textarea class="form-control" rows="10" [(ngModel)] = "valorTabela" ></textarea>
+</fieldset>
+
+<button class="btn btn-secondary" (click) = "submeterTabela()">Submeter</button>
+<button class="btn btn-secondary" (click) = "limparTabela()"  >Limpar</button>

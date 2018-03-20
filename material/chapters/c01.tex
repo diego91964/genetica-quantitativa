@@ -74,41 +74,31 @@ Considere \ol{X} como a média aritmética de um conjunto de valores.
 
 A média pode ser calculada utlizando a soma simples ou a frequência dos itens.
 
-\begin{equation}
-\overline{X} =  \cfrac{\sum_{1}^{n} x_i}{n}
-\end{equation}
+\begin{formula}[Média]
+\begin{align}
+& \overline{X} =  \cfrac{\sum_{1}^{n} x_i}{n} \\
+\end{align}
+\end{formula}
+
+\begin{formula}[Média]
+\begin{align}
+& \overline{X} = \cfrac{\sum_{1}^{n} f_i\times{x_i}}{f_i}
+\end{align}
+\end{formula}
 
 
-\begin{equation}
-\overline{X} = \cfrac{\sum_{1}^{n} f_i\times{x_i}}{f_i}
-\end{equation}
-
-Utilizando os dados da \ref{tab:t01}, pode-se calcular a média dos valores genotípicos de F2.
+Utilizando os dados da tabela \ref{tab:t01}, pode-se calcular a média dos valores genotípicos de F2.
 
 
-\begin{equation}
-\overline{X} = \cfrac{\sum_{1}^{n} f_i\times{x_i}}{f_i}
-\end{equation}
+\begin{solution}[Solução do Exemplo]
 
-\begin{equation}
-\overline{X} = \cfrac{
-				1\times{120} + 
-				2\times{95}  + 
-				2\times{70}  + 
-				2\times{95}  + 
-				4\times{70}  +
-				2\times{45}  + 
-				1\times{70}  + 
-				2\times{45}  + 
-				1\times{20}
-				}{16}
-\end{equation}
+\begin{align}
+& \overline{X} = \cfrac{\sum_{1}^{n} f_i\times{x_i}}{f_i} \\
+& \overline{X} = \cfrac{ 1\times{120} + 2\times{95}  + 2\times{70}  + 2\times{95}  + 4\times{70}  + 	2\times{45}  +  1\times{70}  +  2\times{45}  +  1\times{20} }{16} \\
+& \overline{X} = 70 \\
+\end{align}
 
-
-\begin{equation}
-\overline{X} = 70
-\end{equation}
-
+\end{solution}
 
 Quando a interação é aditiva, a médica de qualquer descendência é igual a média de seus pais. 
 
@@ -220,10 +210,11 @@ O efeito de dominância mascara o processo de seleção, pois, ele dificulta o c
 
 O modelo para o estudo do caráter quantitativo é:
 
-\begin{equation}
+\begin{formula}[Fórmula Geral]
 F = G + A
-\end{equation}
+\end{formula}
 
+\begin{definition}
 Considere V(X) como a variância de X e Cov(X) como a covariância de X.
 
 \begin{equation}
@@ -242,19 +233,27 @@ Temos:
 V(F) = F(G+A) \rightarrow V(F) = V(G) + V(A) 
 \end{equation}
 
+\end{definition}
+
+
+
+
+
 A variância (V) é descrita pela seguinte fórmula: 
 
+\begin{formula}
 \begin{equation}
 V(F) = \cfrac{\sum_{1}^{n} (x_i - \overline{X})^2}{n-1}
 \end{equation}
-
+\end{formula}
 ou
 
+\begin{formula}
 \begin{equation}
 V(F) = \cfrac{\sum_{1}^{n} x^2 - [\sum_{1}^{n} x]^2}{n-1}
 \end{equation}
+\end{formula}
 
-\subsection{Dedução}
 
 Para o cálculo da dedução da variância ambiental, considere um gene A, com dois alelos 'A' e 'a'.
 
@@ -365,3 +364,289 @@ Portanto, como só existe um genótipo possível, não existe variância. A aná
 &  V(Amb) = \frac{V(P1) + V(P2) + 2 \times V(F1)}{4} \\
 \end{align}
 \end{definition}
+
+
+\section{Herdabilidade}
+
+A herdabilidade é um coeficiente que expressa a relação entre a variância genotípica e a variância fenotípica, ou seja, mede o nível da correspondência entre o fenótipo e o valor genético. 
+
+\begin{definition}[Dedução de Herdabilidade]
+
+\begin{align}
+&  r = \frac{Cov(x,y)}{\sqrt{v(x) \times v(y)}} \\
+&  r(F,G) = \frac{Cov(F,G)}{\sqrt{v(F) \times v(G)}} \\
+&  r(F,G) = \frac{Cov(G+A,G)}{\sqrt{v(F) \times v(G)}} \\
+&  r(F,G) = \frac{Cov(G,G) + Cov(G,A)}{\sqrt{v(F) \times v(G)}} \\
+&  Como: Cov(G,A) = 0 \\
+&  \rightarrow r(F,G) = \frac{Cov(G,G)}{\sqrt{v(F) \times v(G)}} \\
+&  Como: Cov(X,X) = V(X) \\
+&  \rightarrow r(F,G) = \frac{V(G)}{\sqrt{v(F) \times v(G)}} \\
+&  r(F,G) = \sqrt{\frac{[V(G)]^2}{v(F) \times v(G)}} \\
+&  r(F,G) = \sqrt{\frac{[V(G)]}{v(F)}} \\
+&  Como: H = \frac{[V(G)]}{v(F)} \\
+&  \rightarrow  r(F,G) = \sqrt{H^2} \\
+\end{align}
+\end{definition}
+
+
+\begin{definition}[Fórmula da Herdabilidade]
+
+\begin{align}
+&  H^2 = \frac{V(G)}{V(F)} \\
+\end{align}
+\end{definition}
+
+O valor da herdabilidade pode variar entre 0 e 1. Por definição, quando o valor da herdabilidade é maior que 0,7 é considerado alto para plantas. Em caso de animas, pode variar entre 0,3 e 0,4.
+
+
+
+\subsection{Ganho de Seleção}
+
+\begin{definition}[Fórmula do Ganho de Seleção (GS)]
+
+\begin{align}
+& GS = H^2 \times (\overline{X}_s - \overline{X}_0) \\
+\end{align}
+Sendo Xs a média dos indivíduos selecionados e X0 a média inicial dos indivíduos.
+\end{definition}
+
+
+\subsection{Média Predita}
+
+\begin{definition}[Fórmula Média Predita (Xm)]
+
+\begin{align}
+& Xm = GS + \overline{X}_0 \\
+\end{align}
+\end{definition}
+
+
+\subsection{Número de Genes}
+
+
+\begin{definition}[Fórmula Número de Genes (Nrg)]
+
+\begin{align}
+& Nrg = \frac{(\overline{P_1} - \overline{P_2})^2}{8 \times V(G)_{F1}} \\
+\end{align}
+Sendo P1 a média dos parentais 1 e  P2 a média dos parentais 2 
+\end{definition}
+
+\subsection{Exemplo}
+
+
+
+\begin{example}
+
+Considere os dados das apresentados abaixo para resolução das questões.
+
+\begin{table}[h]
+\centering
+\begin{tabular}{l l l l l}
+\toprule
+ \multicolumn{5}{c}{Dados Pai 1}\\
+\midrule
+13,13 &  20,35 & 21,60 & 17,77 & 15,74 \\
+19,90 &  24,92 & 16,81 & 22,91 & 15,68 \\
+19,05 &  19,30 & 20,78 & 20,64 & 15,46 \\
+17,14 &  19,21 & 15,45 & 17,88 & 18,43 \\
+\end{tabular}
+\caption{Valores Fenotípicos} \label{tab:t06}
+\end{table}
+
+
+\begin{table}[h]
+\centering
+\begin{tabular}{l l l l l}
+\toprule
+ \multicolumn{5}{c}{Dados Pai 2}\\
+\midrule
+103,39 &  100,94 &  99,26  &  104,13 &  97,54  \\
+96,24  &  106,47 &  105,45 &  95,40  &  104,52 \\
+97,60  &  95,36  &  98,85  &  98,89  &  98,13  \\
+98,56  &  100,37 &  105,99 &  104,95 &  98,85  \\
+\end{tabular}
+\caption{Valores Fenotípicos} \label{tab:t07}
+\end{table}
+
+
+
+\begin{enumerate}
+\item Média P1 = 18,6075
+\item Média P2 = 100,5445
+\item Média F1 = 15,7740
+\item Média F2 = 60,1949
+\end{enumerate}
+
+\end{example}
+
+Questões:
+
+\begin{enumerate}
+\item Calcule a média fenotípica de P1, P2, F1 e F2;
+\item Calcule a variância Fenotípica de P1, P2, F1 e F2;
+\item Calcule a variância Genética de P1, P2, F1 e F2;
+\item Calcule a herdabilidade e interprete o resultado;
+\item Calcule o número de genes;
+\item Calcule o ganho de seleção ao selecionar os 10\% melhores;
+\item Calcule a heterose e heterobeltiose;
+\end{enumerate}
+
+\begin{solution} [Média de P1, P2, F1 e F2]
+
+Para calcular a média, deve-se utilizar a fórmula da média aritmética por soma de valores:
+
+\begin{equation}
+\overline{X} =  \cfrac{\sum_{1}^{n} x_i}{n}
+\end{equation}
+
+Assim, obtemos como resultado:
+
+\begin{equation}
+\overline{P1} =  18,6075 
+\end{equation}
+\begin{equation}
+\overline{P2} =  100,5445 
+\end{equation}
+\begin{equation}
+\overline{F1} =  15,7740 
+\end{equation}
+\begin{equation}
+\overline{F2} =  60,1949
+\end{equation}
+
+\end{solution}
+
+\begin{solution} [Variância Fenotípica de P1, P2, F1 e F2]
+
+
+
+Para calcular a variância, deve-se utilizar a fórmula da média aritmética por soma de valores:
+
+\begin{equation}
+V(F) = \cfrac{\sum_{1}^{n} x^2 - \cfrac{[\sum_{1}^{n} x]^2}{n}}{n_1}
+\end{equation}
+
+Assim, obtemos como resultado:
+
+\begin{equation}
+V(P1) =  8,1699
+\end{equation}
+\begin{equation}
+V(P2) =  13,4026
+\end{equation}
+\begin{equation}
+V(F1) =  15,7740 
+\end{equation}
+\begin{equation}
+V(F2) =  45,1901
+\end{equation}
+
+\end{solution}
+
+\begin{solution} [Variância Genética de P1, P2, F1 e F2]
+
+
+
+Como P1 e P2 são puros, não possuem variância genética. Filhos de pais puros, também não possuem variância. Logo, Vg(P1) = Vg(P2) = Vg(F1) = 0.
+
+Para calcular a variância genética de F2, é necessário utilizar a fórmula:
+
+
+\begin{multline}
+	Vg(F2) = Vf(F2) - V(amb) \\
+\end{multline}
+
+Para isto vamos calcular a Variância Ambiental:
+
+\begin{multline}
+	V(amb) = \cfrac{8,1694 + 13,4026 + 2 \times 15,7740}{4} \\
+	V(amb) = 13,2801
+\end{multline}
+
+Então, temos:
+
+\begin{multline}
+	Vg(F2) = 45,1901 - 13,2801
+	V(amb) = 31,91
+\end{multline}
+
+\end{solution}
+
+\begin{solution} [Herdabilidade]
+
+
+Para calcular a herdabilidade, é necessário utilizar a fórmula:
+
+\begin{multline}
+	H^2 = \frac{V(G)}{V(F)} \\
+	H^2 = \frac{31,91}{45,1901} \\
+	H^2 = 0,707 \\	
+\end{multline}
+
+Portanto, 70,7\% das alterações estão relacionadas aos genes. Por definição, pode-se concluir que é um valor alto.
+
+\end{solution}
+
+
+\begin{solution} [Número do Genes]
+
+Para calcular o número de genes, é necessário utilizar a fórumula:
+
+\begin{multline}
+	Nrg = \frac{(\overline{P_1} - \overline{P_2})^2}{8 \times V(G)_{F1}} \\
+	Nrg = \frac{(18,6075 - 100,5445)^2}{8 \times 31,91} \\
+	Nrg = 27 genes
+\end{multline}
+
+\end{solution}
+
+
+
+\begin{solution} [Ganho de Seleção]
+
+Para calcular o número de genes, primeiramente deve-se calcular a média fenotípica dos 10\% melhores indivíudos (Xs), após este cálculo, pode-se utilizar a fórumula:
+
+\begin{multline}
+ GS = H^2 \times (\overline{X}_s - \overline{X}_0) \\
+ GS = 0,707 \times (73,0035 - 60,1949) \\
+ GS = 9,044
+\end{multline}
+
+\end{solution}
+
+
+\begin{solution} [Média Predita]
+
+Para calcular a média predita pode-se utilizar a fórumula:
+
+\begin{multline}
+ \overline{X_m} = \overline{X_0} + GS \\
+ \overline{X_m} = 60,1949 + 9,04 \\
+ \overline{X_m} = 69,2394
+\end{multline}
+
+\end{solution}
+
+
+\begin{solution} [Heterose e Heterobeltiose]
+
+Para calcular a heterose pode-se utilizar a fórumula:
+
+\begin{multline}
+ h = \overline{F_1} - \frac{\overline{P1} + \overline{P2}}{2}  \\
+ h = 69,2710 - \frac{18,6075+100,5445}{2} \\
+ h = 9,695 \\
+\end{multline}
+
+Para calcular a heterobeltiose pode-se utilizar a fórumula:
+
+\begin{multline}
+ h_b = \overline{F_1} - \overline{Melhor Pai}  \\
+ h_b = 69,2710 - 100,5445 \\
+ h_b = -31,2735 \\
+\end{multline}
+
+Nota: Heterobeltiose consiste na superioridade do híbrido em relação ao progenitor de melhor desempenho. Heterose, consiste no vigor híbrido, de tal maneira que o F1 híbrido destaca-se favoravelmente dos pais homozigotos com relação a um ou mais caracteres desejados.
+
+\end{solution}
