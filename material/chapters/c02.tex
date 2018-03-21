@@ -1,105 +1,121 @@
-\chapter{Parâmetros Genéticos}
+\chapter{Introdução à Genética de Populações}
 
-<<<<<<< HEAD
-=======
-\section{Herdabilidade}
+Para este capítulo, admitir os seguintes termos:
 
-A herdabilidade é um coeficiente que expressa a relação entre a variância genotípica e a variância fenotípica, ou seja, mede o nível da correspondência entre o fenótipo e o valor genético. 
-
-\begin{definition}[Dedução de Herdabilidade]
-
-\begin{align}
-&  r = \frac{Cov(x,y)}{\sqrt{v(x) \times v(y)}} \\
-&  r(F,G) = \frac{Cov(F,G)}{\sqrt{v(F) \times v(G)}} \\
-&  r(F,G) = \frac{Cov(G+A,G)}{\sqrt{v(F) \times v(G)}} \\
-&  r(F,G) = \frac{Cov(G,G) + Cov(G,A)}{\sqrt{v(F) \times v(G)}} \\
-&  Como: Cov(G,A) = 0 \\
-&  \rightarrow r(F,G) = \frac{Cov(G,G)}{\sqrt{v(F) \times v(G)}} \\
-&  Como: Cov(X,X) = V(X) \\
-&  \rightarrow r(F,G) = \frac{V(G)}{\sqrt{v(F) \times v(G)}} \\
-&  r(F,G) = \sqrt{\frac{[V(G)]^2}{v(F) \times v(G)}} \\
-&  r(F,G) = \sqrt{\frac{[V(G)]}{v(F)}} \\
-&  Como: H = \frac{[V(G)]}{v(F)} \\
-&  \rightarrow  r(F,G) = \sqrt{H^2} \\
-\end{align}
-\end{definition}
+\begin{enumerate}
+\item 1 gene e dois alelos ('A' e 'a')
+\item D: Frequência de Homozigotos A
+\item H: Frequência de Heterozigoto
+\item R: Frequência de Homozigotos a
+\end{enumerate}
 
 
-\begin{definition}[Fórmula da Herdabilidade]
-
-\begin{align}
-&  H^2 = \frac{V(G)}{V(F)} \\
-\end{align}
-\end{definition}
-
-O valor da herdabilidade pode variar entre 0 e 1. Por definição, quando o valor da herdabilidade é maior que 0,7 é considerado alto para plantas. Em caso de animas, pode variar entre 0,3 e 0,4.
-
-
-
-\subsection{Ganho de Seleção}
-
-\begin{definition}[Fórmula do Ganho de Seleção (GS)]
-
-\begin{align}
-& GS = H^2 \times (\overline{X}_s - \overline{X}_0) \\
-\end{align}
-Sendo Xs a média dos indivíduos selecionados e X0 a média inicial dos indivíduos.
-\end{definition}
-
-
-\subsection{Média Predita}
-
-\begin{definition}[Fórmula Média Predita (Xm)]
-
-\begin{align}
-& Xm = GS + \overline{X}_0 \\
-\end{align}
-\end{definition}
-
-
-\subsection{Número de Genes}
-
-
-\begin{definition}[Fórmula Número de Genes (Nrg)]
-
-\begin{align}
-& Nrg = \frac{(\overline{P_1} - \overline{P_2})^2}{8 \times V(G)_{F1}} \\
-\end{align}
-Sendo P1 a média dos parentais 1 e  P2 a média dos parentais 2 
-\end{definition}
-
-\subsection{Exemplos}
-
-\textbf{Exemplo 1}
-
-Consideral os seguintes dados :
-
-\begin{table}[h]
+\begin{table}[H]
 \centering
-\begin{tabular}{l l l l l}
+\begin{tabular}{l l l}
+\toprule
+ \textbf{Genótipos Possíveis} & \textbf{Frequência (f)} & \textbf{Frequência}  \\
 \midrule
-13,13 &  20,35 & 21,60 & 17,77 & 15,74 \\
-19,90 &  24,92 & 16,81 & 22,91 & 15,68 \\
-19,05 &  19,30 & 20,78 & 20,64 & 15,46 \\
-17,14 &  19,21 & 15,45 & 17,88 & 18,43 \\
+ AA &  n1/n & D \\
+ Aa &  n2/n & H \\
+ aa &  n3/n & R \\
+\bottomrule
 \end{tabular}
-\caption{Dados Pai 1} \label{tab:t06}
 \end{table}
 
 
-\begin{table}[h]
+\section{Frequência Genica}
+
+
+\begin{definition}[Frequência do alelo A]
+\begin{align}
+& Freq(A) = \frac{Nº alelos A}{Nº total de alelos}
+& Freq(A) = \frac{n1}{n} + \frac{n1}{2 \times n}
+& Freq(A) = D + \frac{H}{2} = p
+\end{align}
+\end{definition}
+
+\begin{definition}[Frequência do alelo A]
+\begin{align}
+& Freq(a) = \frac{Nº alelos A}{Nº total de alelos}
+& Freq(a) = \frac{n3}{n} + \frac{n1}{2 \times n}
+& Freq(a) = R + \frac{H}{2} = q
+\end{align}
+\end{definition}
+
+
+\begin{example}
+
+Seja uma população com 1000 indivíduos, sendo 400 com genótipo AA, 400 com genótipo Aa, 200 indivíduos com genótipo aa. Calcule a frequência genotípica e frequência genica.
+
+\end{example}
+
+\begin{table}[H]
 \centering
 \begin{tabular}{l l l l l}
+\toprule
+ \textbf{Genótipos Possíveis} & \textbf{Frequência (f)} & \textbf{Frequência}  \\
 \midrule
-103,39 &  100,94 &  99,26  &  104,13 &  97,54  \\
-96,24  &  106,47 &  105,45 &  95,40  &  104,52 \\
-97,60  &  95,36  &  98,85  &  98,89  &  98,13  \\
-98,56  &  100,37 &  105,99 &  104,95 &  98,85  \\
-\caption{Dados Pai 2} \label{tab:t07}
+ AA &  n1/n & D = 400/1000 = 0,4 \\
+ Aa &  n2/n & H = 400/1000 = 0,4 \\
+ aa &  n3/n & R = 200/1000 = 0,2 \\
+\bottomrule
+\end{tabular}
 \end{table}
 
 
-\begin{example}[Example name]
-\lipsum[2]
-\end{example}
->>>>>>> d9ae7c9f946ee2728f07472aaf0c5ec90f2e60a3
+A frquência gênica pode ser calculada obtendo o valor de p e q.
+
+\begin{align}
+& Freq(A) = D   + \frac{H}{2} = p
+& Freq(A) = 0,4 + \frac{0,4}{2}
+& p = 0,6
+& q = 1 - p
+& q = 1 - 0,6
+& q = 0,4
+\end{align}
+
+
+\section{Equilíbrio de Harday-Weinberg (EHW)}
+
+Uma população está em EHW se for suficientemente grande, os acasalamentos forem ao acaso e tiver livre de fatores que alteram a frequência gênica. Assim, as frequÊncias genotípicas e gênicas mantem-se constantes a cada geração.
+
+Os fatores que alteram a frequência gênica podem ser sistemáticos ou dispersivos. 
+
+Os fatores sistemáticos  são aqueles cuja alteração na frequência gênica podem ser conhecidas, tanto em termos de magnitude quanto em direção, como: seleção, migração e mutação. 
+
+Os fatores dispersivos  são aqueles em que é possível conhecer apenas a magnitude da alteração da frequência, mas não a direção em que ela foi alterada, como processo dispersivo é considerado a oscilação genética ou amostragem. 
+
+Quando uma população está em equilíbrio, as frequências genotípicas são dados pelo quadrado da frquência gênica.
+
+\begin{definition}
+\begin{align}
+& (p+q)^2 = p^2 + 2 \times p \times q + q^2 \\
+& Sendo: \\
+& p^2 = Freq(AA)  \\
+& e  \\
+& q^2 = Freq(aa) \\
+\end{align}
+\end{definition}
+
+
+\begin{definition}[Demonstração da teoria de EHW]
+
+Para esta demonstração admita:
+
+\begin{enumerate}
+\item freq(A) + freq(a) = 1
+\item p + q = 1
+\item freq(AA) = D
+\item freq(Aa) = H
+\item freq(aa) = R
+\item População de tamanho 'n'
+\item Análise de um gene 'A'
+\end{enumerate}
+
+
+
+
+
+
+\end{definition}
