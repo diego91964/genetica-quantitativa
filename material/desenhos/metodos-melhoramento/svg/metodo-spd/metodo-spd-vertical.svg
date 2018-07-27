@@ -626,9 +626,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.2221236"
-     inkscape:cx="213.23713"
-     inkscape:cy="340.29058"
+     inkscape:zoom="1.1110618"
+     inkscape:cx="93.264148"
+     inkscape:cy="533.55594"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -656,7 +656,10 @@
      transform="translate(0,-87)">
     <g
        id="g26366"
-       transform="matrix(0,0.33448369,-0.33448369,0,103.86653,50.301303)">
+       transform="matrix(0,0.33448369,-0.33448369,0,103.86653,50.301303)"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-spd/metodo-spd-ldpi.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120">
       <rect
          style="fill:none;fill-opacity:1;stroke:#4cafe5;stroke-width:1.15120566;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="rect861"
@@ -1524,13 +1527,19 @@
        style="fill:#4cafe5;fill-opacity:1;stroke:#4cafe5;stroke-width:0.48334074;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:11;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Mstart-5)"
        d="m 43.96058,126.56352 v -7.24293"
        id="path23965-3"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-spd/metodo-spd-ldpi.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.12307692"
        x="54.062729"
        y="113.30432"
-       id="text44221"><tspan
+       id="text44221"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-spd/metodo-spd-ldpi.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120"><tspan
          sodipodi:role="line"
          id="tspan44219"
          x="54.062729"
@@ -1540,11 +1549,14 @@
        style="fill:#4cafe5;fill-opacity:1;stroke:#4cafe5;stroke-width:0.48334074;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:11;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Mstart-5-2)"
        d="m 73.210372,137.94947 -6.020444,-4.0267"
        id="path23965-3-7"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-spd/metodo-spd-ldpi.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
     <path
        inkscape:export-ydpi="120"
        inkscape:export-xdpi="120"
-       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-genealogico/metodo-genealogico-ldpi.png"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-spd/metodo-spd-ldpi.png"
        style="fill:#4cafe5;fill-opacity:1;stroke:#4cafe5;stroke-width:0.36375841;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:11;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Mstart-5-3-2)"
        d="m 49.905208,258.24897 v -4.10236"
        id="path23965-3-0-6"
@@ -1553,10 +1565,16 @@
        style="fill:#4cafe5;fill-opacity:1;stroke:#4cafe5;stroke-width:0.3661615;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:11;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Mstart-5-3-9)"
        d="m 49.905209,227.09766 v -4.15674"
        id="path23965-3-0-5"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-spd/metodo-spd-ldpi.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
     <g
        transform="matrix(0.33448368,0,0,0.33448368,2.0605599,196.79789)"
-       id="g22055">
+       id="g22055"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-spd/metodo-spd-ldpi.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120">
       <g
          id="g19175"
          transform="translate(0,44.231924)">
@@ -3451,7 +3469,10 @@
        style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.12307692"
        x="63.593773"
        y="210.36072"
-       id="text44221-43-5"><tspan
+       id="text44221-43-5"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-spd/metodo-spd-ldpi.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120"><tspan
          sodipodi:role="line"
          id="tspan44219-0-4"
          x="63.593773"
@@ -3461,11 +3482,14 @@
        style="fill:#4cafe5;fill-opacity:1;stroke:#4cafe5;stroke-width:0.39837155;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:11;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Mstart-5-3-9-6)"
        d="m 49.905209,198.40653 v -4.92022"
        id="path23965-3-0-5-7"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-spd/metodo-spd-ldpi.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
     <path
        inkscape:export-ydpi="120"
        inkscape:export-xdpi="120"
-       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-genealogico/metodo-genealogico-ldpi.png"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-spd/metodo-spd-ldpi.png"
        style="fill:#4cafe5;fill-opacity:1;stroke:#4cafe5;stroke-width:0.35183683;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:11;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Mstart)"
        d="M 43.960547,102.79738 V 98.959516"
        id="path23965"
@@ -3473,7 +3497,7 @@
     <g
        id="g1181"
        transform="matrix(0.33448369,0,0,0.33448369,-12.028615,50.375684)"
-       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-genealogico/metodo-genealogico-ldpi.png"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-spd/metodo-spd-ldpi.png"
        inkscape:export-xdpi="120"
        inkscape:export-ydpi="120">
       <g
@@ -3542,13 +3566,13 @@
        id="rect861-0"
        style="fill:none;fill-opacity:1;stroke:#4cafe5;stroke-width:0.20555608;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        transform="rotate(90)"
-       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-genealogico/metodo-genealogico-ldpi.png"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-spd/metodo-spd-ldpi.png"
        inkscape:export-xdpi="120"
        inkscape:export-ydpi="120" />
     <g
        id="g1181-1"
        transform="matrix(0.33448369,0,0,0.33448369,-9.265258,72.892868)"
-       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-genealogico/metodo-genealogico-ldpi.png"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-spd/metodo-spd-ldpi.png"
        inkscape:export-xdpi="120"
        inkscape:export-ydpi="120">
       <g
@@ -3612,7 +3636,7 @@
     <text
        inkscape:export-ydpi="120"
        inkscape:export-xdpi="120"
-       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-genealogico/metodo-genealogico-ldpi.png"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-spd/metodo-spd-ldpi.png"
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.12307692"
        x="40.230377"
@@ -3626,7 +3650,7 @@
     <g
        inkscape:export-ydpi="120"
        inkscape:export-xdpi="120"
-       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-genealogico/metodo-genealogico-ldpi.png"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-spd/metodo-spd-ldpi.png"
        id="g45330"
        transform="rotate(90,50.625916,118.54225)">
       <g
@@ -6479,7 +6503,7 @@
     <text
        inkscape:export-ydpi="120"
        inkscape:export-xdpi="120"
-       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-genealogico/metodo-genealogico-ldpi.png"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-spd/metodo-spd-ldpi.png"
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.12307692"
        x="37.948143"
@@ -6493,7 +6517,7 @@
     <text
        inkscape:export-ydpi="120"
        inkscape:export-xdpi="120"
-       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-genealogico/metodo-genealogico-ldpi.png"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-spd/metodo-spd-ldpi.png"
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.12307692"
        x="46.169865"
@@ -6507,7 +6531,7 @@
     <text
        inkscape:export-ydpi="120"
        inkscape:export-xdpi="120"
-       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-genealogico/metodo-genealogico-ldpi.png"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-spd/metodo-spd-ldpi.png"
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.12307692"
        x="26.078928"
@@ -6521,7 +6545,7 @@
     <text
        inkscape:export-ydpi="120"
        inkscape:export-xdpi="120"
-       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-genealogico/metodo-genealogico-ldpi.png"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-spd/metodo-spd-ldpi.png"
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:2.11666656px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.12307692"
        x="77.691559"
@@ -6540,7 +6564,7 @@
     <text
        inkscape:export-ydpi="120"
        inkscape:export-xdpi="120"
-       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-genealogico/metodo-genealogico-ldpi.png"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-spd/metodo-spd-ldpi.png"
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:2.11666656px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.12307692"
        x="58.085293"
@@ -6556,7 +6580,7 @@
        id="g3785-3-7-22-5-7-2"
        inkscape:export-xdpi="120"
        inkscape:export-ydpi="120"
-       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-genealogico/metodo-genealogico-ldpi.png">
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-spd/metodo-spd-ldpi.png">
       <g
          id="g3729-5-8-60-7-9-1" />
       <g
@@ -6593,7 +6617,7 @@
        id="g3785-3-7-22-5-7"
        inkscape:export-xdpi="120"
        inkscape:export-ydpi="120"
-       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-genealogico/metodo-genealogico-ldpi.png">
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-spd/metodo-spd-ldpi.png">
       <g
          id="g3729-5-8-60-7-9" />
       <g
@@ -6628,7 +6652,7 @@
     <g
        transform="matrix(0.00429688,0,0,0.00429688,45.651622,120.5558)"
        id="g4697"
-       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-genealogico/metodo-genealogico-ldpi.png"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-spd/metodo-spd-ldpi.png"
        inkscape:export-xdpi="120"
        inkscape:export-ydpi="120">
       <g
@@ -6655,112 +6679,121 @@
     <g
        id="g4610"
        transform="matrix(0.00585937,0,0,0.00585937,48.449715,129.08917)"
-       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-genealogico/metodo-genealogico-ldpi.png"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-spd/metodo-spd-ldpi.png"
        inkscape:export-xdpi="120"
        inkscape:export-ydpi="120" />
     <g
        id="g4612"
        transform="matrix(0.00585937,0,0,0.00585937,48.449715,129.08917)"
-       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-genealogico/metodo-genealogico-ldpi.png"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-spd/metodo-spd-ldpi.png"
        inkscape:export-xdpi="120"
        inkscape:export-ydpi="120" />
     <g
        id="g4614"
        transform="matrix(0.00585937,0,0,0.00585937,48.449715,129.08917)"
-       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-genealogico/metodo-genealogico-ldpi.png"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-spd/metodo-spd-ldpi.png"
        inkscape:export-xdpi="120"
        inkscape:export-ydpi="120" />
     <g
        id="g4616"
        transform="matrix(0.00585937,0,0,0.00585937,48.449715,129.08917)"
-       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-genealogico/metodo-genealogico-ldpi.png"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-spd/metodo-spd-ldpi.png"
        inkscape:export-xdpi="120"
        inkscape:export-ydpi="120" />
     <g
        id="g4618"
        transform="matrix(0.00585937,0,0,0.00585937,48.449715,129.08917)"
-       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-genealogico/metodo-genealogico-ldpi.png"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-spd/metodo-spd-ldpi.png"
        inkscape:export-xdpi="120"
        inkscape:export-ydpi="120" />
     <g
        id="g4620"
        transform="matrix(0.00585937,0,0,0.00585937,48.449715,129.08917)"
-       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-genealogico/metodo-genealogico-ldpi.png"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-spd/metodo-spd-ldpi.png"
        inkscape:export-xdpi="120"
        inkscape:export-ydpi="120" />
     <g
        id="g4622"
        transform="matrix(0.00585937,0,0,0.00585937,48.449715,129.08917)"
-       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-genealogico/metodo-genealogico-ldpi.png"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-spd/metodo-spd-ldpi.png"
        inkscape:export-xdpi="120"
        inkscape:export-ydpi="120" />
     <g
        id="g4624"
        transform="matrix(0.00585937,0,0,0.00585937,48.449715,129.08917)"
-       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-genealogico/metodo-genealogico-ldpi.png"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-spd/metodo-spd-ldpi.png"
        inkscape:export-xdpi="120"
        inkscape:export-ydpi="120" />
     <g
        id="g4626"
        transform="matrix(0.00585937,0,0,0.00585937,48.449715,129.08917)"
-       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-genealogico/metodo-genealogico-ldpi.png"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-spd/metodo-spd-ldpi.png"
        inkscape:export-xdpi="120"
        inkscape:export-ydpi="120" />
     <g
        id="g4628"
        transform="matrix(0.00585937,0,0,0.00585937,48.449715,129.08917)"
-       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-genealogico/metodo-genealogico-ldpi.png"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-spd/metodo-spd-ldpi.png"
        inkscape:export-xdpi="120"
        inkscape:export-ydpi="120" />
     <g
        id="g4630"
        transform="matrix(0.00585937,0,0,0.00585937,48.449715,129.08917)"
-       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-genealogico/metodo-genealogico-ldpi.png"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-spd/metodo-spd-ldpi.png"
        inkscape:export-xdpi="120"
        inkscape:export-ydpi="120" />
     <g
        id="g4632"
        transform="matrix(0.00585937,0,0,0.00585937,48.449715,129.08917)"
-       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-genealogico/metodo-genealogico-ldpi.png"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-spd/metodo-spd-ldpi.png"
        inkscape:export-xdpi="120"
        inkscape:export-ydpi="120" />
     <g
        id="g4634"
        transform="matrix(0.00585937,0,0,0.00585937,48.449715,129.08917)"
-       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-genealogico/metodo-genealogico-ldpi.png"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-spd/metodo-spd-ldpi.png"
        inkscape:export-xdpi="120"
        inkscape:export-ydpi="120" />
     <g
        id="g4636"
        transform="matrix(0.00585937,0,0,0.00585937,48.449715,129.08917)"
-       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-genealogico/metodo-genealogico-ldpi.png"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-spd/metodo-spd-ldpi.png"
        inkscape:export-xdpi="120"
        inkscape:export-ydpi="120" />
     <g
        id="g4638"
        transform="matrix(0.00585937,0,0,0.00585937,48.449715,129.08917)"
-       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-genealogico/metodo-genealogico-ldpi.png"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-spd/metodo-spd-ldpi.png"
        inkscape:export-xdpi="120"
        inkscape:export-ydpi="120" />
     <path
        style="fill:#4cafe5;fill-opacity:1;stroke:#4cafe5;stroke-width:0.28299999;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:11;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Mstart-5-6-9-4-7-8-56-1)"
        d="m 61.16876,174.24166 -0.04345,-7.2428"
        id="path23965-3-5-0-9-4-3-2-49"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-spd/metodo-spd-ldpi.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
     <path
        style="fill:#d9af26;fill-opacity:1;stroke:#d9af26;stroke-width:0.28299999;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:11;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Mstart-5-6-9-4-7-8-56-1-0)"
        d="m 49.799804,174.24171 -0.03339,-7.24285"
        id="path23965-3-5-0-9-4-3-2-49-1"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-spd/metodo-spd-ldpi.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
     <path
        style="fill:#ff0b24;fill-opacity:0.98823529;stroke:#ff0b24;stroke-width:0.28299999;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:11;stroke-dasharray:none;stroke-opacity:0.98823529;marker-start:url(#Arrow1Mstart-5-6-9-4-7-8-56-1-7)"
        d="m 30.210273,173.02275 -4.021547,-6.02389"
        id="path23965-3-5-0-9-4-3-2-49-11"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-spd/metodo-spd-ldpi.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
     <g
        id="g10037-3-9-5"
        transform="matrix(0.33448368,0,0,0.33448368,-16.980899,106.69117)"
-       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-genealogico/metodo-genealogico-ldpi.png"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-spd/metodo-spd-ldpi.png"
        inkscape:export-xdpi="120"
        inkscape:export-ydpi="120">
       <rect
@@ -7010,7 +7043,7 @@
     <g
        id="g10037-3-9-6"
        transform="matrix(0.33448368,0,0,0.33448368,-4.4893181,106.69117)"
-       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-genealogico/metodo-genealogico-ldpi.png"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-spd/metodo-spd-ldpi.png"
        inkscape:export-xdpi="120"
        inkscape:export-ydpi="120">
       <rect
@@ -7260,7 +7293,7 @@
     <g
        id="g10037-3-9-8"
        transform="matrix(0.33448368,0,0,0.33448368,6.8115852,106.69117)"
-       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-genealogico/metodo-genealogico-ldpi.png"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-spd/metodo-spd-ldpi.png"
        inkscape:export-xdpi="120"
        inkscape:export-ydpi="120">
       <rect
@@ -7513,7 +7546,7 @@
        x="28.444181"
        y="183.22719"
        id="text44221-43-4-8-9"
-       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-genealogico/metodo-genealogico-ldpi.png"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-spd/metodo-spd-ldpi.png"
        inkscape:export-xdpi="120"
        inkscape:export-ydpi="120"><tspan
          sodipodi:role="line"
@@ -7524,7 +7557,7 @@
     <text
        inkscape:export-ydpi="120"
        inkscape:export-xdpi="120"
-       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-genealogico/metodo-genealogico-ldpi.png"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-spd/metodo-spd-ldpi.png"
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:2.11666656px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.12307692"
        x="93.694557"
@@ -7542,52 +7575,100 @@
          id="tspan13141">e faz novo plantio</tspan></text>
     <g
        id="g5663"
-       transform="matrix(0.26458333,0,0,0.26458333,19.191207,65.791758)" />
+       transform="matrix(0.26458333,0,0,0.26458333,19.191207,65.791758)"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-spd/metodo-spd-ldpi.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
     <g
        id="g5665"
-       transform="matrix(0.26458333,0,0,0.26458333,19.191207,65.791758)" />
+       transform="matrix(0.26458333,0,0,0.26458333,19.191207,65.791758)"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-spd/metodo-spd-ldpi.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
     <g
        id="g5667"
-       transform="matrix(0.26458333,0,0,0.26458333,19.191207,65.791758)" />
+       transform="matrix(0.26458333,0,0,0.26458333,19.191207,65.791758)"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-spd/metodo-spd-ldpi.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
     <g
        id="g5669"
-       transform="matrix(0.26458333,0,0,0.26458333,19.191207,65.791758)" />
+       transform="matrix(0.26458333,0,0,0.26458333,19.191207,65.791758)"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-spd/metodo-spd-ldpi.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
     <g
        id="g5671"
-       transform="matrix(0.26458333,0,0,0.26458333,19.191207,65.791758)" />
+       transform="matrix(0.26458333,0,0,0.26458333,19.191207,65.791758)"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-spd/metodo-spd-ldpi.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
     <g
        id="g5673"
-       transform="matrix(0.26458333,0,0,0.26458333,19.191207,65.791758)" />
+       transform="matrix(0.26458333,0,0,0.26458333,19.191207,65.791758)"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-spd/metodo-spd-ldpi.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
     <g
        id="g5675"
-       transform="matrix(0.26458333,0,0,0.26458333,19.191207,65.791758)" />
+       transform="matrix(0.26458333,0,0,0.26458333,19.191207,65.791758)"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-spd/metodo-spd-ldpi.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
     <g
        id="g5677"
-       transform="matrix(0.26458333,0,0,0.26458333,19.191207,65.791758)" />
+       transform="matrix(0.26458333,0,0,0.26458333,19.191207,65.791758)"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-spd/metodo-spd-ldpi.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
     <g
        id="g5679"
-       transform="matrix(0.26458333,0,0,0.26458333,19.191207,65.791758)" />
+       transform="matrix(0.26458333,0,0,0.26458333,19.191207,65.791758)"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-spd/metodo-spd-ldpi.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
     <g
        id="g5681"
-       transform="matrix(0.26458333,0,0,0.26458333,19.191207,65.791758)" />
+       transform="matrix(0.26458333,0,0,0.26458333,19.191207,65.791758)"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-spd/metodo-spd-ldpi.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
     <g
        id="g5683"
-       transform="matrix(0.26458333,0,0,0.26458333,19.191207,65.791758)" />
+       transform="matrix(0.26458333,0,0,0.26458333,19.191207,65.791758)"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-spd/metodo-spd-ldpi.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
     <g
        id="g5685"
-       transform="matrix(0.26458333,0,0,0.26458333,19.191207,65.791758)" />
+       transform="matrix(0.26458333,0,0,0.26458333,19.191207,65.791758)"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-spd/metodo-spd-ldpi.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
     <g
        id="g5687"
-       transform="matrix(0.26458333,0,0,0.26458333,19.191207,65.791758)" />
+       transform="matrix(0.26458333,0,0,0.26458333,19.191207,65.791758)"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-spd/metodo-spd-ldpi.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
     <g
        id="g5689"
-       transform="matrix(0.26458333,0,0,0.26458333,19.191207,65.791758)" />
+       transform="matrix(0.26458333,0,0,0.26458333,19.191207,65.791758)"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-spd/metodo-spd-ldpi.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
     <g
        id="g5691"
-       transform="matrix(0.26458333,0,0,0.26458333,19.191207,65.791758)" />
+       transform="matrix(0.26458333,0,0,0.26458333,19.191207,65.791758)"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-spd/metodo-spd-ldpi.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
     <g
        id="g12635"
-       transform="translate(0.23586957)">
+       transform="translate(0.23586957)"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-spd/metodo-spd-ldpi.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120">
       <g
          transform="translate(-5.057276)"
          id="g8009">
@@ -8521,33 +8602,51 @@
        style="fill:#4cafe5;fill-opacity:1;stroke:#4cafe5;stroke-width:0.48334074;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:11;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Mstart-5-2-6)"
        d="m 67.55399,142.55968 6.112468,-3.88559"
        id="path23965-3-7-7"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-spd/metodo-spd-ldpi.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
     <path
        style="fill:#4cafe5;fill-opacity:1;stroke:#4cafe5;stroke-width:0.48334074;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:11;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Mstart-5-2-5)"
        d="M 73.574434,149.7614 67.55399,145.7347"
        id="path23965-3-7-6"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-spd/metodo-spd-ldpi.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
     <path
        style="fill:#4cafe5;fill-opacity:1;stroke:#4cafe5;stroke-width:0.48334074;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:11;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Mstart-5-2-6-6)"
        d="m 67.918052,154.37161 6.112468,-3.88559"
        id="path23965-3-7-7-6"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-spd/metodo-spd-ldpi.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
     <path
        style="fill:#4cafe5;fill-opacity:1;stroke:#4cafe5;stroke-width:0.48334074;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:11;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Mstart-5-2-5-0)"
        d="m 73.938496,160.51499 -6.020444,-4.0267"
        id="path23965-3-7-6-2"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-spd/metodo-spd-ldpi.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
     <path
        style="fill:#4cafe5;fill-opacity:1;stroke:#4cafe5;stroke-width:0.48334074;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:11;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Mstart-5-2-6-6-9)"
        d="m 68.282114,165.1252 6.112468,-3.88559"
        id="path23965-3-7-7-6-0"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-spd/metodo-spd-ldpi.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.12307692"
        x="14.504453"
        y="136.00854"
-       id="text44221-3"><tspan
+       id="text44221-3"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-spd/metodo-spd-ldpi.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120"><tspan
          sodipodi:role="line"
          id="tspan44219-7"
          x="14.504453"
@@ -8558,7 +8657,10 @@
        style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.12307692"
        x="14.491534"
        y="145.10071"
-       id="text44221-3-0"><tspan
+       id="text44221-3-0"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-spd/metodo-spd-ldpi.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120"><tspan
          sodipodi:role="line"
          id="tspan44219-7-0"
          x="14.491534"
@@ -8569,7 +8671,10 @@
        style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.12307692"
        x="14.474308"
        y="163.45395"
-       id="text44221-3-0-3"><tspan
+       id="text44221-3-0-3"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-spd/metodo-spd-ldpi.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120"><tspan
          sodipodi:role="line"
          id="tspan44219-7-0-4"
          x="14.474308"
@@ -8580,7 +8685,10 @@
        style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.12307692"
        x="14.432106"
        y="153.83188"
-       id="text44221-3-0-9"><tspan
+       id="text44221-3-0-9"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-spd/metodo-spd-ldpi.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120"><tspan
          sodipodi:role="line"
          id="tspan44219-7-0-2"
          x="14.432106"
@@ -8589,7 +8697,7 @@
     <text
        inkscape:export-ydpi="120"
        inkscape:export-xdpi="120"
-       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-genealogico/metodo-genealogico-ldpi.png"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-spd/metodo-spd-ldpi.png"
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:2.11666656px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.12307692"
        x="93.694557"
@@ -8608,7 +8716,7 @@
     <text
        inkscape:export-ydpi="120"
        inkscape:export-xdpi="120"
-       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-genealogico/metodo-genealogico-ldpi.png"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-spd/metodo-spd-ldpi.png"
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:2.11666656px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.12307692"
        x="93.694557"
@@ -8626,7 +8734,10 @@
          id="tspan13141-4">e faz novo plantio</tspan></text>
     <g
        id="g3966"
-       transform="matrix(0.01749557,0,0,0.01749557,74.983482,135.22721)">
+       transform="matrix(0.01749557,0,0,0.01749557,74.983482,135.22721)"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-spd/metodo-spd-ldpi.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120">
       <g
          id="g3910">
 	<path
@@ -8684,7 +8795,10 @@
     </g>
     <g
        id="g3966-3"
-       transform="matrix(0.01749557,0,0,0.01749557,74.972052,147.42765)">
+       transform="matrix(0.01749557,0,0,0.01749557,74.972052,147.42765)"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-spd/metodo-spd-ldpi.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120">
       <g
          id="g3910-6">
         <path
@@ -8726,7 +8840,10 @@
     </g>
     <g
        id="g3966-2"
-       transform="matrix(0.01749557,0,0,0.01749557,75.308826,158.41492)">
+       transform="matrix(0.01749557,0,0,0.01749557,75.308826,158.41492)"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-spd/metodo-spd-ldpi.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120">
       <g
          id="g3910-61">
         <path
