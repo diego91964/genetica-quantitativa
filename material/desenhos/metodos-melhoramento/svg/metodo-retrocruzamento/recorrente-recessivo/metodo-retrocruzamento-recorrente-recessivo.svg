@@ -1,0 +1,3311 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="297mm"
+   height="210mm"
+   viewBox="0 0 297 210"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="metodo-retrocruzamento-recorrente-dominante.svg"
+   inkscape:export-filename="/home/diego/Desktop/desenhos-genetica/png/metodo-populacao.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96">
+  <defs
+     id="defs2">
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker39733"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mstart">
+      <path
+         transform="scale(0.4) translate(10,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path39731" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lend"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path23698"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow2Lstart"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path23713"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#4cafe5;stroke-opacity:1;fill:#4cafe5;fill-opacity:1"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(1.1) translate(1,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mstart-8"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path23701-6"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#4cafe5;fill-opacity:1;fill-rule:evenodd;stroke:#4cafe5;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(0.4,0,0,0.4,4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mstart-5"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path23701-69"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#4cafe5;fill-opacity:1;fill-rule:evenodd;stroke:#4cafe5;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(0.4,0,0,0.4,4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mstart-5-6"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path23701-69-0"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#4cafe5;fill-opacity:1;fill-rule:evenodd;stroke:#4cafe5;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(0.4,0,0,0.4,4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mstart-5-4"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path23701-69-6"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#4cafe5;fill-opacity:1;fill-rule:evenodd;stroke:#4cafe5;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(0.4,0,0,0.4,4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mstart-5-4-9"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path23701-69-6-9"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#4cafe5;fill-opacity:1;fill-rule:evenodd;stroke:#4cafe5;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(0.4,0,0,0.4,4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mstart-5-4-8"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path23701-69-6-7"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#4cafe5;fill-opacity:1;fill-rule:evenodd;stroke:#4cafe5;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(0.4,0,0,0.4,4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mstart-5-4-1"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path23701-69-6-4"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#4cafe5;fill-opacity:1;fill-rule:evenodd;stroke:#4cafe5;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(0.4,0,0,0.4,4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mstart-5-4-4"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path23701-69-6-2"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#4cafe5;fill-opacity:1;fill-rule:evenodd;stroke:#4cafe5;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(0.4,0,0,0.4,4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mstart-5-6-1"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path23701-69-0-7"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#4cafe5;fill-opacity:1;fill-rule:evenodd;stroke:#4cafe5;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(0.4,0,0,0.4,4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mstart-5-6-9"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path23701-69-0-4"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#4caf0a;fill-opacity:1;fill-rule:evenodd;stroke:#4caf0a;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(0.4,0,0,0.4,4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mstart-5-6-9-9"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path23701-69-0-4-5"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#4cafe5;fill-opacity:1;fill-rule:evenodd;stroke:#4cafe5;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(0.4,0,0,0.4,4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mstart-5-6-9-4"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path23701-69-0-4-7"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#4cafe5;fill-opacity:1;fill-rule:evenodd;stroke:#4cafe5;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(0.4,0,0,0.4,4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mstart-5-6-9-4-7"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path23701-69-0-4-7-5"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#d9af26;fill-opacity:1;fill-rule:evenodd;stroke:#d9af26;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(0.4,0,0,0.4,4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mstart-5-6-9-9-5"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path23701-69-0-4-5-9"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#ff0b24;fill-opacity:0.98823529;fill-rule:evenodd;stroke:#ff0b24;stroke-width:1.00000003pt;stroke-opacity:0.98823529"
+         transform="matrix(0.4,0,0,0.4,4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mstart-5-3"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path23701-69-7"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#4cafe5;fill-opacity:1;fill-rule:evenodd;stroke:#4cafe5;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(0.4,0,0,0.4,4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mstart-5-3-9"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path23701-69-7-0"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#4cafe5;fill-opacity:1;fill-rule:evenodd;stroke:#4cafe5;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(0.4,0,0,0.4,4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mstart-5-3-2"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path23701-69-7-4"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#4cafe5;fill-opacity:1;fill-rule:evenodd;stroke:#4cafe5;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(0.4,0,0,0.4,4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mstart-5-6-9-4-7-8"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path23701-69-0-4-7-5-2"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#ff0a23;fill-opacity:0.90980392;fill-rule:evenodd;stroke:#ff0b24;stroke-width:1.00000003pt;stroke-opacity:0.98823529"
+         transform="matrix(0.4,0,0,0.4,4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mstart-5-6-9-4-7-8-7"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path23701-69-0-4-7-5-2-0"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#d9af26;fill-opacity:1;fill-rule:evenodd;stroke:#d9af26;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(0.4,0,0,0.4,4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mstart-5-6-9-4-7-8-7-4"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path23701-69-0-4-7-5-2-0-7"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#4cafe5;fill-opacity:1;fill-rule:evenodd;stroke:#4cafe5;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(0.4,0,0,0.4,4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mstart-5-6-9-4-7-8-7-4-4"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path23701-69-0-4-7-5-2-0-7-9"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#4cafe5;fill-opacity:1;fill-rule:evenodd;stroke:#4cafe5;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(0.4,0,0,0.4,4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mstart-5-6-9-4-7-8-5"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path23701-69-0-4-7-5-2-4"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#4caf0a;fill-opacity:0.99607843;fill-rule:evenodd;stroke:#4caf0a;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(0.4,0,0,0.4,4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mstart-5-6-9-4-7-8-56"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path23701-69-0-4-7-5-2-2"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#4cafe5;fill-opacity:1;fill-rule:evenodd;stroke:#4cafe5;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(0.4,0,0,0.4,4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mstart-5-6-9-4-7-8-7-8"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path23701-69-0-4-7-5-2-0-9"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#d9af26;fill-opacity:1;fill-rule:evenodd;stroke:#d9af26;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(0.4,0,0,0.4,4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mstart-5-6-9-4-7-8-56-5"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path23701-69-0-4-7-5-2-2-5"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#ff0a23;fill-opacity:0.90980392;fill-rule:evenodd;stroke:#ff0b24;stroke-width:1.00000003pt;stroke-opacity:0.98823529"
+         transform="matrix(0.4,0,0,0.4,4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mstart-5-6-9-4-7-8-5-3"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path23701-69-0-4-7-5-2-4-1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#4caf0a;fill-opacity:0.99607843;fill-rule:evenodd;stroke:#4caf0a;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(0.4,0,0,0.4,4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mstart-5-6-9-4-7-8-56-1"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path23701-69-0-4-7-5-2-2-59"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#4cafe5;fill-opacity:1;fill-rule:evenodd;stroke:#4cafe5;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(0.4,0,0,0.4,4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mstart-5-6-9-4-7-8-56-1-0"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path23701-69-0-4-7-5-2-2-59-9"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#d9af26;fill-opacity:1;fill-rule:evenodd;stroke:#d9af26;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(0.4,0,0,0.4,4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mstart-5-6-9-4-7-8-56-1-7"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path23701-69-0-4-7-5-2-2-59-7"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#ff0b24;fill-opacity:0.98823529;fill-rule:evenodd;stroke:#ff0b24;stroke-width:1.00000003pt;stroke-opacity:0.98823529"
+         transform="matrix(0.4,0,0,0.4,4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mstart-5-3-9-6"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path23701-69-7-0-8"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#4cafe5;fill-opacity:1;fill-rule:evenodd;stroke:#4cafe5;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(0.4,0,0,0.4,4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mstart-5-2"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path23701-69-1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#4cafe5;fill-opacity:1;fill-rule:evenodd;stroke:#4cafe5;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(0.4,0,0,0.4,4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mstart-5-2-6"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path23701-69-1-3"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#4cafe5;fill-opacity:1;fill-rule:evenodd;stroke:#4cafe5;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(0.4,0,0,0.4,4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mstart-5-2-6-6"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path23701-69-1-3-1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#4cafe5;fill-opacity:1;fill-rule:evenodd;stroke:#4cafe5;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(0.4,0,0,0.4,4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mstart-5-2-5"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path23701-69-1-0"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#4cafe5;fill-opacity:1;fill-rule:evenodd;stroke:#4cafe5;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(0.4,0,0,0.4,4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mstart-5-2-6-6-9"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path23701-69-1-3-1-1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#4cafe5;fill-opacity:1;fill-rule:evenodd;stroke:#4cafe5;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(0.4,0,0,0.4,4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mstart-5-2-5-0"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path23701-69-1-0-4"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#4cafe5;fill-opacity:1;fill-rule:evenodd;stroke:#4cafe5;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(0.4,0,0,0.4,4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mstart-5-5"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path23701-69-04"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#4cafe5;fill-opacity:1;fill-rule:evenodd;stroke:#4cafe5;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(0.4,0,0,0.4,4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mstart-5-5-3"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path23701-69-04-9"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#4cafe5;fill-opacity:1;fill-rule:evenodd;stroke:#4cafe5;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(0.4,0,0,0.4,4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mstart-5-5-3-9"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path23701-69-04-9-6"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#4cafe5;fill-opacity:1;fill-rule:evenodd;stroke:#4cafe5;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(0.4,0,0,0.4,4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mstart-5-5-3-3"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path23701-69-04-9-3"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#4cafe5;fill-opacity:1;fill-rule:evenodd;stroke:#4cafe5;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(0.4,0,0,0.4,4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mstart-5-5-3-8"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path23701-69-04-9-60"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#4cafe5;fill-opacity:1;fill-rule:evenodd;stroke:#4cafe5;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(0.4,0,0,0.4,4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mstart-5-5-3-7"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path23701-69-04-9-4"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#4cafe5;fill-opacity:1;fill-rule:evenodd;stroke:#4cafe5;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(0.4,0,0,0.4,4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mstart-5-5-3-8-3"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path23701-69-04-9-60-1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#4cafe5;fill-opacity:1;fill-rule:evenodd;stroke:#4cafe5;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(0.4,0,0,0.4,4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mstart-5-5-3-7-6"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path23701-69-04-9-4-0"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#4cafe5;fill-opacity:1;fill-rule:evenodd;stroke:#4cafe5;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(0.4,0,0,0.4,4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mstart-5-5-3-8-3-9"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path23701-69-04-9-60-1-7"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#4cafe5;fill-opacity:1;fill-rule:evenodd;stroke:#4cafe5;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(0.4,0,0,0.4,4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mstart-5-5-3-7-8"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path23701-69-04-9-4-5"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#4cafe5;fill-opacity:1;fill-rule:evenodd;stroke:#4cafe5;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(0.4,0,0,0.4,4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mstart-5-5-3-8-3-3"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path23701-69-04-9-60-1-3"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#4cafe5;fill-opacity:1;fill-rule:evenodd;stroke:#4cafe5;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(0.4,0,0,0.4,4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mstart-5-5-3-7-8-3"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path23701-69-04-9-4-5-7"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#4cafe5;fill-opacity:1;fill-rule:evenodd;stroke:#4cafe5;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(0.4,0,0,0.4,4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mstart-5-5-3-8-3-3-8"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path23701-69-04-9-60-1-3-7"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#4cafe5;fill-opacity:1;fill-rule:evenodd;stroke:#4cafe5;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(0.4,0,0,0.4,4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mstart-5-5-7"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path23701-69-04-0"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#4cafe5;fill-opacity:1;fill-rule:evenodd;stroke:#4cafe5;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(0.4,0,0,0.4,4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mstart-5-5-7-6"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path23701-69-04-0-9"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#4cafe5;fill-opacity:1;fill-rule:evenodd;stroke:#4cafe5;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(0.4,0,0,0.4,4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mstart-5-5-7-0"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path23701-69-04-0-4"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#4cafe5;fill-opacity:1;fill-rule:evenodd;stroke:#4cafe5;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(0.4,0,0,0.4,4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mstart-5-5-3-7-8-2"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path23701-69-04-9-4-5-4"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#4cafe5;fill-opacity:1;fill-rule:evenodd;stroke:#4cafe5;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(0.4,0,0,0.4,4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mstart-5-5-3-8-3-3-4"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path23701-69-04-9-60-1-3-3"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#4cafe5;fill-opacity:1;fill-rule:evenodd;stroke:#4cafe5;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(0.4,0,0,0.4,4,0)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.78563933"
+     inkscape:cx="463.60409"
+     inkscape:cy="398.70793"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1600"
+     inkscape:window-height="872"
+     inkscape:window-x="1600"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-87)">
+    <g
+       transform="matrix(0.00711967,0,0,0.00711967,49.356988,205.71199)"
+       id="g3785-3-7-22-5-7-2"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-retrocruzamento/recorrente-recessivo/retrocruzamento-recorrente-recessivo-ldpi.png">
+      <g
+         id="g3729-5-8-60-7-9-1" />
+      <g
+         id="g3731-6-5-88-1-1-7" />
+      <g
+         id="g3733-2-97-7-9-8-4" />
+      <g
+         id="g3735-9-53-08-0-1-1" />
+      <g
+         id="g3737-1-8-9-2-4-7" />
+      <g
+         id="g3739-2-8-98-3-9-1" />
+      <g
+         id="g3741-7-3-42-9-1-1" />
+      <g
+         id="g3743-0-1-68-8-7-1" />
+      <g
+         id="g3745-9-8-7-0-9-7" />
+      <g
+         id="g3747-3-9-85-3-7-0" />
+      <g
+         id="g3749-6-6-98-1-1-4" />
+      <g
+         id="g3751-0-4-3-5-4-0" />
+      <g
+         id="g3753-6-3-64-7-4-8" />
+      <g
+         id="g3755-2-3-71-7-2-5" />
+      <g
+         id="g3757-6-3-5-7-8-1" />
+    </g>
+    <g
+       transform="matrix(0.00711967,0,0,0.00711967,50.26038,159.29848)"
+       id="g3785-3-7-22-5-7"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-retrocruzamento/recorrente-recessivo/retrocruzamento-recorrente-recessivo-ldpi.png">
+      <g
+         id="g3729-5-8-60-7-9" />
+      <g
+         id="g3731-6-5-88-1-1" />
+      <g
+         id="g3733-2-97-7-9-8" />
+      <g
+         id="g3735-9-53-08-0-1" />
+      <g
+         id="g3737-1-8-9-2-4" />
+      <g
+         id="g3739-2-8-98-3-9" />
+      <g
+         id="g3741-7-3-42-9-1" />
+      <g
+         id="g3743-0-1-68-8-7" />
+      <g
+         id="g3745-9-8-7-0-9" />
+      <g
+         id="g3747-3-9-85-3-7" />
+      <g
+         id="g3749-6-6-98-1-1" />
+      <g
+         id="g3751-0-4-3-5-4" />
+      <g
+         id="g3753-6-3-64-7-4" />
+      <g
+         id="g3755-2-3-71-7-2" />
+      <g
+         id="g3757-6-3-5-7-8" />
+    </g>
+    <g
+       id="g4610"
+       transform="matrix(0.00585937,0,0,0.00585937,48.449715,129.08917)"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-retrocruzamento/recorrente-recessivo/retrocruzamento-recorrente-recessivo-ldpi.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
+    <g
+       id="g4612"
+       transform="matrix(0.00585937,0,0,0.00585937,48.449715,129.08917)"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-retrocruzamento/recorrente-recessivo/retrocruzamento-recorrente-recessivo-ldpi.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
+    <g
+       id="g4614"
+       transform="matrix(0.00585937,0,0,0.00585937,48.449715,129.08917)"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-retrocruzamento/recorrente-recessivo/retrocruzamento-recorrente-recessivo-ldpi.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
+    <g
+       id="g4616"
+       transform="matrix(0.00585937,0,0,0.00585937,48.449715,129.08917)"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-retrocruzamento/recorrente-recessivo/retrocruzamento-recorrente-recessivo-ldpi.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
+    <g
+       id="g4618"
+       transform="matrix(0.00585937,0,0,0.00585937,48.449715,129.08917)"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-retrocruzamento/recorrente-recessivo/retrocruzamento-recorrente-recessivo-ldpi.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
+    <g
+       id="g4620"
+       transform="matrix(0.00585937,0,0,0.00585937,48.449715,129.08917)"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-retrocruzamento/recorrente-recessivo/retrocruzamento-recorrente-recessivo-ldpi.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
+    <g
+       id="g4622"
+       transform="matrix(0.00585937,0,0,0.00585937,48.449715,129.08917)"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-retrocruzamento/recorrente-recessivo/retrocruzamento-recorrente-recessivo-ldpi.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
+    <g
+       id="g4624"
+       transform="matrix(0.00585937,0,0,0.00585937,48.449715,129.08917)"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-retrocruzamento/recorrente-recessivo/retrocruzamento-recorrente-recessivo-ldpi.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
+    <g
+       id="g4626"
+       transform="matrix(0.00585937,0,0,0.00585937,48.449715,129.08917)"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-retrocruzamento/recorrente-recessivo/retrocruzamento-recorrente-recessivo-ldpi.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
+    <g
+       id="g4628"
+       transform="matrix(0.00585937,0,0,0.00585937,48.449715,129.08917)"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-retrocruzamento/recorrente-recessivo/retrocruzamento-recorrente-recessivo-ldpi.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
+    <g
+       id="g4630"
+       transform="matrix(0.00585937,0,0,0.00585937,48.449715,129.08917)"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-retrocruzamento/recorrente-recessivo/retrocruzamento-recorrente-recessivo-ldpi.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
+    <g
+       id="g4632"
+       transform="matrix(0.00585937,0,0,0.00585937,48.449715,129.08917)"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-retrocruzamento/recorrente-recessivo/retrocruzamento-recorrente-recessivo-ldpi.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
+    <g
+       id="g4634"
+       transform="matrix(0.00585937,0,0,0.00585937,48.449715,129.08917)"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-retrocruzamento/recorrente-recessivo/retrocruzamento-recorrente-recessivo-ldpi.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
+    <g
+       id="g4636"
+       transform="matrix(0.00585937,0,0,0.00585937,48.449715,129.08917)"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-retrocruzamento/recorrente-recessivo/retrocruzamento-recorrente-recessivo-ldpi.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
+    <g
+       id="g4638"
+       transform="matrix(0.00585937,0,0,0.00585937,48.449715,129.08917)"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-retrocruzamento/recorrente-recessivo/retrocruzamento-recorrente-recessivo-ldpi.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
+    <g
+       id="g5663"
+       transform="matrix(0.26458333,0,0,0.26458333,19.191207,65.791758)"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-retrocruzamento/recorrente-recessivo/retrocruzamento-recorrente-recessivo-ldpi.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
+    <g
+       id="g5665"
+       transform="matrix(0.26458333,0,0,0.26458333,19.191207,65.791758)"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-retrocruzamento/recorrente-recessivo/retrocruzamento-recorrente-recessivo-ldpi.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
+    <g
+       id="g5667"
+       transform="matrix(0.26458333,0,0,0.26458333,19.191207,65.791758)"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-retrocruzamento/recorrente-recessivo/retrocruzamento-recorrente-recessivo-ldpi.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
+    <g
+       id="g5669"
+       transform="matrix(0.26458333,0,0,0.26458333,19.191207,65.791758)"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-retrocruzamento/recorrente-recessivo/retrocruzamento-recorrente-recessivo-ldpi.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
+    <g
+       id="g5671"
+       transform="matrix(0.26458333,0,0,0.26458333,19.191207,65.791758)"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-retrocruzamento/recorrente-recessivo/retrocruzamento-recorrente-recessivo-ldpi.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
+    <g
+       id="g5673"
+       transform="matrix(0.26458333,0,0,0.26458333,19.191207,65.791758)"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-retrocruzamento/recorrente-recessivo/retrocruzamento-recorrente-recessivo-ldpi.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
+    <g
+       id="g5675"
+       transform="matrix(0.26458333,0,0,0.26458333,19.191207,65.791758)"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-retrocruzamento/recorrente-recessivo/retrocruzamento-recorrente-recessivo-ldpi.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
+    <g
+       id="g5677"
+       transform="matrix(0.26458333,0,0,0.26458333,19.191207,65.791758)"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-retrocruzamento/recorrente-recessivo/retrocruzamento-recorrente-recessivo-ldpi.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
+    <g
+       id="g5679"
+       transform="matrix(0.26458333,0,0,0.26458333,19.191207,65.791758)"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-retrocruzamento/recorrente-recessivo/retrocruzamento-recorrente-recessivo-ldpi.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
+    <g
+       id="g5681"
+       transform="matrix(0.26458333,0,0,0.26458333,19.191207,65.791758)"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-retrocruzamento/recorrente-recessivo/retrocruzamento-recorrente-recessivo-ldpi.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
+    <g
+       id="g5683"
+       transform="matrix(0.26458333,0,0,0.26458333,19.191207,65.791758)"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-retrocruzamento/recorrente-recessivo/retrocruzamento-recorrente-recessivo-ldpi.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
+    <g
+       id="g5685"
+       transform="matrix(0.26458333,0,0,0.26458333,19.191207,65.791758)"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-retrocruzamento/recorrente-recessivo/retrocruzamento-recorrente-recessivo-ldpi.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
+    <g
+       id="g5687"
+       transform="matrix(0.26458333,0,0,0.26458333,19.191207,65.791758)"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-retrocruzamento/recorrente-recessivo/retrocruzamento-recorrente-recessivo-ldpi.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
+    <g
+       id="g5689"
+       transform="matrix(0.26458333,0,0,0.26458333,19.191207,65.791758)"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-retrocruzamento/recorrente-recessivo/retrocruzamento-recorrente-recessivo-ldpi.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
+    <g
+       id="g5691"
+       transform="matrix(0.26458333,0,0,0.26458333,19.191207,65.791758)"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-retrocruzamento/recorrente-recessivo/retrocruzamento-recorrente-recessivo-ldpi.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
+    <g
+       id="g4522"
+       transform="matrix(0.8153514,0,0,0.8153514,-2.3417304,9.2879085)"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-retrocruzamento/recorrente-recessivo/retrocruzamento-recorrente-recessivo-ldpi.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120">
+      <g
+         transform="matrix(0.02809694,0,0,0.02809694,15.230281,99.911612)"
+         id="g3785-3-7-3-9-0-9-3-5-1-3"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96">
+        <g
+           id="g3951-8-6-4-9-8-6-6-4-8">
+          <g
+             id="g3725-6-5-7-4-8-6-7-9-9-5">
+            <path
+               id="path3721-7-7-5-20-0-3-5-3-2-61"
+               d="M 188.864,67.349 C 147.819,26.325 67.499,21.568 10.667,21.568 4.776,21.568 0,26.344 0,32.235 c 0,56.853 4.757,137.173 45.781,178.219 19.261,17.154 44.438,26.143 70.208,25.067 26.571,1.047 52.57,-7.896 72.875,-25.067 30.571,-30.593 36.181,-106.923 0,-143.105 z"
+               style="fill:#4caf50"
+               inkscape:connector-curvature="0" />
+            <path
+               id="path3723-5-4-3-0-3-88-3-7-0-15"
+               d="m 459.136,63.765 c -56.853,0 -137.173,4.757 -178.219,45.781 -36.267,36.267 -30.571,112.491 0,143.083 20.311,17.174 46.318,26.117 72.896,25.067 25.769,1.074 50.946,-7.915 70.208,-25.067 41.045,-41.045 45.781,-121.365 45.781,-178.219 -0.011,-5.882 -4.783,-10.645 -10.666,-10.645 z"
+               style="fill:#4caf50"
+               inkscape:connector-curvature="0" />
+          </g>
+          <path
+             id="path3727-3-1-5-00-1-6-5-4-6-9"
+             d="m 224,448.235 c -5.891,0 -10.667,-4.776 -10.667,-10.667 0,-226.24 -82.965,-283.008 -114.197,-304.363 -3.767,-2.405 -7.334,-5.109 -10.667,-8.085 -4.093,-4.237 -3.975,-10.99 0.262,-15.083 4.134,-3.993 10.687,-3.993 14.821,0 2.409,2.037 4.961,3.898 7.637,5.568 27.733,18.965 93.056,63.659 115.648,210.261 17.459,-76.645 69.213,-140.995 140.331,-174.485 5.446,-2.562 11.946,-0.51 14.933,4.715 2.698,4.755 1.032,10.796 -3.723,13.495 -0.178,0.101 -0.36,0.197 -0.544,0.287 l -1.728,0.811 c -116.949,54.976 -141.504,175.467 -141.504,266.88 0.001,5.865 -4.736,10.63 -10.602,10.666 z"
+             style="fill:#388e3c"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g3729-5-8-6-81-4-68-6-5-8-8" />
+        <g
+           id="g3731-6-5-2-71-8-8-2-2-9-4" />
+        <g
+           id="g3733-2-97-9-9-9-2-9-5-2-8" />
+        <g
+           id="g3735-9-53-1-9-0-1-1-4-6-1" />
+        <g
+           id="g3737-1-8-2-09-5-18-2-7-6-0" />
+        <g
+           id="g3739-2-8-7-34-1-3-70-4-4-3" />
+        <g
+           id="g3741-7-3-0-731-3-86-9-4-9-04" />
+        <g
+           id="g3743-0-1-9-7-0-0-3-3-5-4" />
+        <g
+           id="g3745-9-8-3-82-1-8-6-07-0-4" />
+        <g
+           id="g3747-3-9-6-5-9-07-0-8-4-4" />
+        <g
+           id="g3749-6-6-0-3-9-36-6-6-8-76" />
+        <g
+           id="g3751-0-4-6-12-2-5-2-8-7-3" />
+        <g
+           id="g3753-6-3-2-12-0-5-6-8-1-17" />
+        <g
+           id="g3755-2-3-6-92-0-6-1-4-7-59" />
+        <g
+           id="g3757-6-3-1-64-7-93-8-3-2-6" />
+      </g>
+      <text
+         inkscape:export-ydpi="120"
+         inkscape:export-xdpi="120"
+         inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-ssd/metodo-ssd-ldpi.png"
+         id="text44221-7"
+         y="115.29267"
+         x="10.704345"
+         style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.12307692"
+         xml:space="preserve"><tspan
+           style="font-weight:bold;stroke-width:0.12307692"
+           y="115.29267"
+           x="10.704345"
+           id="tspan44219-5"
+           sodipodi:role="line">Recorrente</tspan></text>
+      <text
+         inkscape:export-ydpi="120"
+         inkscape:export-xdpi="120"
+         inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-ssd/metodo-ssd-ldpi.png"
+         id="text44221-7-9-2"
+         y="118.0549"
+         x="19.51087"
+         style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.12307692"
+         xml:space="preserve"><tspan
+           style="font-weight:bold;stroke-width:0.12307692"
+           y="118.0549"
+           x="19.51087"
+           id="tspan44219-5-2-8"
+           sodipodi:role="line">aa</tspan></text>
+    </g>
+    <g
+       id="g4549"
+       transform="matrix(0.8153514,0,0,0.8153514,-2.3417304,9.2879085)"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-retrocruzamento/recorrente-recessivo/retrocruzamento-recorrente-recessivo-ldpi.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120">
+      <g
+         transform="matrix(0.02809694,0,0,0.02809694,42.996337,100.11215)"
+         id="g3785-3-7-3-9-0-9-3-5-1-3-36"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96">
+        <g
+           id="g3951-8-6-4-9-8-6-6-4-8-7">
+          <g
+             id="g3725-6-5-7-4-8-6-7-9-9-5-5">
+            <path
+               id="path3721-7-7-5-20-0-3-5-3-2-61-3"
+               d="M 188.864,67.349 C 147.819,26.325 67.499,21.568 10.667,21.568 4.776,21.568 0,26.344 0,32.235 c 0,56.853 4.757,137.173 45.781,178.219 19.261,17.154 44.438,26.143 70.208,25.067 26.571,1.047 52.57,-7.896 72.875,-25.067 30.571,-30.593 36.181,-106.923 0,-143.105 z"
+               style="fill:#d35f5f"
+               inkscape:connector-curvature="0" />
+            <path
+               id="path3723-5-4-3-0-3-88-3-7-0-15-5"
+               d="m 459.136,63.765 c -56.853,0 -137.173,4.757 -178.219,45.781 -36.267,36.267 -30.571,112.491 0,143.083 20.311,17.174 46.318,26.117 72.896,25.067 25.769,1.074 50.946,-7.915 70.208,-25.067 41.045,-41.045 45.781,-121.365 45.781,-178.219 -0.011,-5.882 -4.783,-10.645 -10.666,-10.645 z"
+               style="fill:#d35f5f;fill-opacity:1"
+               inkscape:connector-curvature="0" />
+          </g>
+          <path
+             id="path3727-3-1-5-00-1-6-5-4-6-9-6"
+             d="m 224,448.235 c -5.891,0 -10.667,-4.776 -10.667,-10.667 0,-226.24 -82.965,-283.008 -114.197,-304.363 -3.767,-2.405 -7.334,-5.109 -10.667,-8.085 -4.093,-4.237 -3.975,-10.99 0.262,-15.083 4.134,-3.993 10.687,-3.993 14.821,0 2.409,2.037 4.961,3.898 7.637,5.568 27.733,18.965 93.056,63.659 115.648,210.261 17.459,-76.645 69.213,-140.995 140.331,-174.485 5.446,-2.562 11.946,-0.51 14.933,4.715 2.698,4.755 1.032,10.796 -3.723,13.495 -0.178,0.101 -0.36,0.197 -0.544,0.287 l -1.728,0.811 c -116.949,54.976 -141.504,175.467 -141.504,266.88 0.001,5.865 -4.736,10.63 -10.602,10.666 z"
+             style="fill:#388e3c"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g3729-5-8-6-81-4-68-6-5-8-8-2" />
+        <g
+           id="g3731-6-5-2-71-8-8-2-2-9-4-9" />
+        <g
+           id="g3733-2-97-9-9-9-2-9-5-2-8-12" />
+        <g
+           id="g3735-9-53-1-9-0-1-1-4-6-1-70" />
+        <g
+           id="g3737-1-8-2-09-5-18-2-7-6-0-9" />
+        <g
+           id="g3739-2-8-7-34-1-3-70-4-4-3-3" />
+        <g
+           id="g3741-7-3-0-731-3-86-9-4-9-04-6" />
+        <g
+           id="g3743-0-1-9-7-0-0-3-3-5-4-06" />
+        <g
+           id="g3745-9-8-3-82-1-8-6-07-0-4-2" />
+        <g
+           id="g3747-3-9-6-5-9-07-0-8-4-4-6" />
+        <g
+           id="g3749-6-6-0-3-9-36-6-6-8-76-1" />
+        <g
+           id="g3751-0-4-6-12-2-5-2-8-7-3-8" />
+        <g
+           id="g3753-6-3-2-12-0-5-6-8-1-17-7" />
+        <g
+           id="g3755-2-3-6-92-0-6-1-4-7-59-92" />
+        <g
+           id="g3757-6-3-1-64-7-93-8-3-2-6-0" />
+      </g>
+      <text
+         inkscape:export-ydpi="120"
+         inkscape:export-xdpi="120"
+         inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-ssd/metodo-ssd-ldpi.png"
+         id="text44221-7-9"
+         y="115.34693"
+         x="42.223831"
+         style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.12307692"
+         xml:space="preserve"><tspan
+           style="font-weight:bold;stroke-width:0.12307692"
+           y="115.34693"
+           x="42.223831"
+           id="tspan44219-5-2"
+           sodipodi:role="line">Doador</tspan></text>
+      <text
+         inkscape:export-ydpi="120"
+         inkscape:export-xdpi="120"
+         inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-ssd/metodo-ssd-ldpi.png"
+         id="text44221-7-9-2-9"
+         y="118.37788"
+         x="46.866959"
+         style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.12307692"
+         xml:space="preserve"><tspan
+           style="font-weight:bold;stroke-width:0.12307692"
+           y="118.37788"
+           x="46.866959"
+           id="tspan44219-5-2-8-7"
+           sodipodi:role="line">AA</tspan></text>
+    </g>
+    <text
+       inkscape:export-ydpi="120"
+       inkscape:export-xdpi="120"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-retrocruzamento/recorrente-recessivo/retrocruzamento-recorrente-recessivo-ldpi.png"
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.60220671px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.10035094"
+       x="25.868193"
+       y="108.67941"
+       id="text44221-2-3"><tspan
+         sodipodi:role="line"
+         id="tspan44219-1-6"
+         x="25.868193"
+         y="108.67941"
+         style="font-weight:bold;stroke-width:0.10035094">X</tspan></text>
+    <path
+       style="fill:#4cafe5;fill-opacity:1;stroke:#4cafe5;stroke-width:0.39409253;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:11;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Mstart-5-5)"
+       d="m 27.64008,116.81688 v -5.90556"
+       id="path23965-3-8"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-retrocruzamento/recorrente-recessivo/retrocruzamento-recorrente-recessivo-ldpi.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
+    <g
+       id="g11965"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-retrocruzamento/recorrente-recessivo/retrocruzamento-recorrente-recessivo-ldpi.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120">
+      <g
+         id="g4522-1"
+         transform="matrix(0.8153514,0,0,0.8153514,9.4848799,37.381603)">
+        <g
+           inkscape:export-ydpi="96"
+           inkscape:export-xdpi="96"
+           id="g3785-3-7-3-9-0-9-3-5-1-3-2"
+           transform="matrix(0.02809694,0,0,0.02809694,15.230281,99.911612)">
+          <g
+             id="g3951-8-6-4-9-8-6-6-4-8-9">
+            <g
+               id="g3725-6-5-7-4-8-6-7-9-9-5-3">
+              <path
+                 inkscape:connector-curvature="0"
+                 style="fill:#4caf50"
+                 d="M 188.864,67.349 C 147.819,26.325 67.499,21.568 10.667,21.568 4.776,21.568 0,26.344 0,32.235 c 0,56.853 4.757,137.173 45.781,178.219 19.261,17.154 44.438,26.143 70.208,25.067 26.571,1.047 52.57,-7.896 72.875,-25.067 30.571,-30.593 36.181,-106.923 0,-143.105 z"
+                 id="path3721-7-7-5-20-0-3-5-3-2-61-1" />
+              <path
+                 inkscape:connector-curvature="0"
+                 style="fill:#d35f5f;fill-opacity:1"
+                 d="m 459.136,63.765 c -56.853,0 -137.173,4.757 -178.219,45.781 -36.267,36.267 -30.571,112.491 0,143.083 20.311,17.174 46.318,26.117 72.896,25.067 25.769,1.074 50.946,-7.915 70.208,-25.067 41.045,-41.045 45.781,-121.365 45.781,-178.219 -0.011,-5.882 -4.783,-10.645 -10.666,-10.645 z"
+                 id="path3723-5-4-3-0-3-88-3-7-0-15-9" />
+            </g>
+            <path
+               inkscape:connector-curvature="0"
+               style="fill:#388e3c"
+               d="m 224,448.235 c -5.891,0 -10.667,-4.776 -10.667,-10.667 0,-226.24 -82.965,-283.008 -114.197,-304.363 -3.767,-2.405 -7.334,-5.109 -10.667,-8.085 -4.093,-4.237 -3.975,-10.99 0.262,-15.083 4.134,-3.993 10.687,-3.993 14.821,0 2.409,2.037 4.961,3.898 7.637,5.568 27.733,18.965 93.056,63.659 115.648,210.261 17.459,-76.645 69.213,-140.995 140.331,-174.485 5.446,-2.562 11.946,-0.51 14.933,4.715 2.698,4.755 1.032,10.796 -3.723,13.495 -0.178,0.101 -0.36,0.197 -0.544,0.287 l -1.728,0.811 c -116.949,54.976 -141.504,175.467 -141.504,266.88 0.001,5.865 -4.736,10.63 -10.602,10.666 z"
+               id="path3727-3-1-5-00-1-6-5-4-6-9-47" />
+          </g>
+          <g
+             id="g3729-5-8-6-81-4-68-6-5-8-8-8" />
+          <g
+             id="g3731-6-5-2-71-8-8-2-2-9-4-4" />
+          <g
+             id="g3733-2-97-9-9-9-2-9-5-2-8-50" />
+          <g
+             id="g3735-9-53-1-9-0-1-1-4-6-1-3" />
+          <g
+             id="g3737-1-8-2-09-5-18-2-7-6-0-6" />
+          <g
+             id="g3739-2-8-7-34-1-3-70-4-4-3-1" />
+          <g
+             id="g3741-7-3-0-731-3-86-9-4-9-04-06" />
+          <g
+             id="g3743-0-1-9-7-0-0-3-3-5-4-32" />
+          <g
+             id="g3745-9-8-3-82-1-8-6-07-0-4-0" />
+          <g
+             id="g3747-3-9-6-5-9-07-0-8-4-4-61" />
+          <g
+             id="g3749-6-6-0-3-9-36-6-6-8-76-55" />
+          <g
+             id="g3751-0-4-6-12-2-5-2-8-7-3-4" />
+          <g
+             id="g3753-6-3-2-12-0-5-6-8-1-17-76" />
+          <g
+             id="g3755-2-3-6-92-0-6-1-4-7-59-56" />
+          <g
+             id="g3757-6-3-1-64-7-93-8-3-2-6-9" />
+        </g>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.12307692"
+           x="8.7811203"
+           y="115.29267"
+           id="text44221-7-3"
+           inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-ssd/metodo-ssd-ldpi.png"
+           inkscape:export-xdpi="120"
+           inkscape:export-ydpi="120"><tspan
+             sodipodi:role="line"
+             id="tspan44219-5-7"
+             x="8.7811203"
+             y="115.29267"
+             style="font-weight:bold;stroke-width:0.12307692">Heterozigoto</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.12307692"
+           x="19.51087"
+           y="118.0549"
+           id="text44221-7-9-2-4"
+           inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-ssd/metodo-ssd-ldpi.png"
+           inkscape:export-xdpi="120"
+           inkscape:export-ydpi="120"><tspan
+             sodipodi:role="line"
+             id="tspan44219-5-2-8-5"
+             x="19.51087"
+             y="118.0549"
+             style="font-weight:bold;stroke-width:0.12307692">Aa</tspan></text>
+      </g>
+      <text
+         id="text44221-2-3-4"
+         y="135.65575"
+         x="38.708214"
+         style="font-style:normal;font-weight:normal;font-size:4.60220671px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.10035094"
+         xml:space="preserve"
+         inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-ssd/metodo-ssd-ldpi.png"
+         inkscape:export-xdpi="120"
+         inkscape:export-ydpi="120"><tspan
+           style="font-weight:bold;stroke-width:0.10035094"
+           y="135.65575"
+           x="38.708214"
+           id="tspan44219-1-6-9"
+           sodipodi:role="line">X</tspan></text>
+      <g
+         id="g4522-7"
+         transform="matrix(0.8153514,0,0,0.8153514,35.600607,37.381603)">
+        <g
+           inkscape:export-ydpi="96"
+           inkscape:export-xdpi="96"
+           id="g3785-3-7-3-9-0-9-3-5-1-3-1"
+           transform="matrix(0.02809694,0,0,0.02809694,15.230281,99.911612)">
+          <g
+             id="g3951-8-6-4-9-8-6-6-4-8-72">
+            <g
+               id="g3725-6-5-7-4-8-6-7-9-9-5-72">
+              <path
+                 inkscape:connector-curvature="0"
+                 style="fill:#4caf50"
+                 d="M 188.864,67.349 C 147.819,26.325 67.499,21.568 10.667,21.568 4.776,21.568 0,26.344 0,32.235 c 0,56.853 4.757,137.173 45.781,178.219 19.261,17.154 44.438,26.143 70.208,25.067 26.571,1.047 52.57,-7.896 72.875,-25.067 30.571,-30.593 36.181,-106.923 0,-143.105 z"
+                 id="path3721-7-7-5-20-0-3-5-3-2-61-26" />
+              <path
+                 inkscape:connector-curvature="0"
+                 style="fill:#4caf50"
+                 d="m 459.136,63.765 c -56.853,0 -137.173,4.757 -178.219,45.781 -36.267,36.267 -30.571,112.491 0,143.083 20.311,17.174 46.318,26.117 72.896,25.067 25.769,1.074 50.946,-7.915 70.208,-25.067 41.045,-41.045 45.781,-121.365 45.781,-178.219 -0.011,-5.882 -4.783,-10.645 -10.666,-10.645 z"
+                 id="path3723-5-4-3-0-3-88-3-7-0-15-10" />
+            </g>
+            <path
+               inkscape:connector-curvature="0"
+               style="fill:#388e3c"
+               d="m 224,448.235 c -5.891,0 -10.667,-4.776 -10.667,-10.667 0,-226.24 -82.965,-283.008 -114.197,-304.363 -3.767,-2.405 -7.334,-5.109 -10.667,-8.085 -4.093,-4.237 -3.975,-10.99 0.262,-15.083 4.134,-3.993 10.687,-3.993 14.821,0 2.409,2.037 4.961,3.898 7.637,5.568 27.733,18.965 93.056,63.659 115.648,210.261 17.459,-76.645 69.213,-140.995 140.331,-174.485 5.446,-2.562 11.946,-0.51 14.933,4.715 2.698,4.755 1.032,10.796 -3.723,13.495 -0.178,0.101 -0.36,0.197 -0.544,0.287 l -1.728,0.811 c -116.949,54.976 -141.504,175.467 -141.504,266.88 0.001,5.865 -4.736,10.63 -10.602,10.666 z"
+               id="path3727-3-1-5-00-1-6-5-4-6-9-61" />
+          </g>
+          <g
+             id="g3729-5-8-6-81-4-68-6-5-8-8-5" />
+          <g
+             id="g3731-6-5-2-71-8-8-2-2-9-4-94" />
+          <g
+             id="g3733-2-97-9-9-9-2-9-5-2-8-9" />
+          <g
+             id="g3735-9-53-1-9-0-1-1-4-6-1-09" />
+          <g
+             id="g3737-1-8-2-09-5-18-2-7-6-0-17" />
+          <g
+             id="g3739-2-8-7-34-1-3-70-4-4-3-7" />
+          <g
+             id="g3741-7-3-0-731-3-86-9-4-9-04-11" />
+          <g
+             id="g3743-0-1-9-7-0-0-3-3-5-4-5" />
+          <g
+             id="g3745-9-8-3-82-1-8-6-07-0-4-9" />
+          <g
+             id="g3747-3-9-6-5-9-07-0-8-4-4-77" />
+          <g
+             id="g3749-6-6-0-3-9-36-6-6-8-76-67" />
+          <g
+             id="g3751-0-4-6-12-2-5-2-8-7-3-3" />
+          <g
+             id="g3753-6-3-2-12-0-5-6-8-1-17-6" />
+          <g
+             id="g3755-2-3-6-92-0-6-1-4-7-59-563" />
+          <g
+             id="g3757-6-3-1-64-7-93-8-3-2-6-94" />
+        </g>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.12307692"
+           x="10.704345"
+           y="115.29267"
+           id="text44221-7-8"
+           inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-ssd/metodo-ssd-ldpi.png"
+           inkscape:export-xdpi="120"
+           inkscape:export-ydpi="120"><tspan
+             sodipodi:role="line"
+             id="tspan44219-5-1"
+             x="10.704345"
+             y="115.29267"
+             style="font-weight:bold;stroke-width:0.12307692">Recorrente</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.12307692"
+           x="19.51087"
+           y="118.0549"
+           id="text44221-7-9-2-2"
+           inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-ssd/metodo-ssd-ldpi.png"
+           inkscape:export-xdpi="120"
+           inkscape:export-ydpi="120"><tspan
+             sodipodi:role="line"
+             id="tspan44219-5-2-8-9"
+             x="19.51087"
+             y="118.0549"
+             style="font-weight:bold;stroke-width:0.12307692">aa</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g8632"
+       transform="matrix(0.8153514,0,0,0.8153514,-1.5774822,9.2879085)"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-retrocruzamento/recorrente-recessivo/retrocruzamento-recorrente-recessivo-ldpi.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120">
+      <path
+         inkscape:export-ydpi="120"
+         inkscape:export-xdpi="120"
+         inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-ssd/metodo-ssd-ldpi.png"
+         inkscape:connector-curvature="0"
+         id="path23965-3-8-0"
+         d="m 59.512241,163.79005 -4.63727,-5.56379"
+         style="fill:#4cafe5;fill-opacity:1;stroke:#4cafe5;stroke-width:0.48334074;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:11;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Mstart-5-5-3)" />
+      <path
+         inkscape:export-ydpi="120"
+         inkscape:export-xdpi="120"
+         inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-ssd/metodo-ssd-ldpi.png"
+         inkscape:connector-curvature="0"
+         id="path23965-3-8-0-4"
+         d="m 43.68346,164.11113 4.876072,-5.85031"
+         style="fill:#4cafe5;fill-opacity:1;stroke:#4cafe5;stroke-width:0.50823092;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:11;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Mstart-5-5-3-8)" />
+    </g>
+    <g
+       id="g12050"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-retrocruzamento/recorrente-recessivo/retrocruzamento-recorrente-recessivo-ldpi.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120">
+      <g
+         id="g4522-7-8"
+         transform="matrix(0.8153514,0,0,0.8153514,10.475658,64.978197)">
+        <g
+           inkscape:export-ydpi="96"
+           inkscape:export-xdpi="96"
+           id="g3785-3-7-3-9-0-9-3-5-1-3-1-8"
+           transform="matrix(0.02809694,0,0,0.02809694,15.230281,99.911612)">
+          <g
+             id="g3951-8-6-4-9-8-6-6-4-8-72-5">
+            <g
+               id="g3725-6-5-7-4-8-6-7-9-9-5-72-0">
+              <path
+                 inkscape:connector-curvature="0"
+                 style="fill:#4caf50"
+                 d="M 188.864,67.349 C 147.819,26.325 67.499,21.568 10.667,21.568 4.776,21.568 0,26.344 0,32.235 c 0,56.853 4.757,137.173 45.781,178.219 19.261,17.154 44.438,26.143 70.208,25.067 26.571,1.047 52.57,-7.896 72.875,-25.067 30.571,-30.593 36.181,-106.923 0,-143.105 z"
+                 id="path3721-7-7-5-20-0-3-5-3-2-61-26-9" />
+              <path
+                 inkscape:connector-curvature="0"
+                 style="fill:#4caf50"
+                 d="m 459.136,63.765 c -56.853,0 -137.173,4.757 -178.219,45.781 -36.267,36.267 -30.571,112.491 0,143.083 20.311,17.174 46.318,26.117 72.896,25.067 25.769,1.074 50.946,-7.915 70.208,-25.067 41.045,-41.045 45.781,-121.365 45.781,-178.219 -0.011,-5.882 -4.783,-10.645 -10.666,-10.645 z"
+                 id="path3723-5-4-3-0-3-88-3-7-0-15-10-6" />
+            </g>
+            <path
+               inkscape:connector-curvature="0"
+               style="fill:#388e3c"
+               d="m 224,448.235 c -5.891,0 -10.667,-4.776 -10.667,-10.667 0,-226.24 -82.965,-283.008 -114.197,-304.363 -3.767,-2.405 -7.334,-5.109 -10.667,-8.085 -4.093,-4.237 -3.975,-10.99 0.262,-15.083 4.134,-3.993 10.687,-3.993 14.821,0 2.409,2.037 4.961,3.898 7.637,5.568 27.733,18.965 93.056,63.659 115.648,210.261 17.459,-76.645 69.213,-140.995 140.331,-174.485 5.446,-2.562 11.946,-0.51 14.933,4.715 2.698,4.755 1.032,10.796 -3.723,13.495 -0.178,0.101 -0.36,0.197 -0.544,0.287 l -1.728,0.811 c -116.949,54.976 -141.504,175.467 -141.504,266.88 0.001,5.865 -4.736,10.63 -10.602,10.666 z"
+               id="path3727-3-1-5-00-1-6-5-4-6-9-61-3" />
+          </g>
+          <g
+             id="g3729-5-8-6-81-4-68-6-5-8-8-5-8" />
+          <g
+             id="g3731-6-5-2-71-8-8-2-2-9-4-94-5" />
+          <g
+             id="g3733-2-97-9-9-9-2-9-5-2-8-9-6" />
+          <g
+             id="g3735-9-53-1-9-0-1-1-4-6-1-09-1" />
+          <g
+             id="g3737-1-8-2-09-5-18-2-7-6-0-17-1" />
+          <g
+             id="g3739-2-8-7-34-1-3-70-4-4-3-7-5" />
+          <g
+             id="g3741-7-3-0-731-3-86-9-4-9-04-11-9" />
+          <g
+             id="g3743-0-1-9-7-0-0-3-3-5-4-5-8" />
+          <g
+             id="g3745-9-8-3-82-1-8-6-07-0-4-9-4" />
+          <g
+             id="g3747-3-9-6-5-9-07-0-8-4-4-77-8" />
+          <g
+             id="g3749-6-6-0-3-9-36-6-6-8-76-67-1" />
+          <g
+             id="g3751-0-4-6-12-2-5-2-8-7-3-3-0" />
+          <g
+             id="g3753-6-3-2-12-0-5-6-8-1-17-6-3" />
+          <g
+             id="g3755-2-3-6-92-0-6-1-4-7-59-563-0" />
+          <g
+             id="g3757-6-3-1-64-7-93-8-3-2-6-94-4" />
+        </g>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.12307692"
+           x="9.8353195"
+           y="115.29267"
+           id="text44221-7-8-4"
+           inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-ssd/metodo-ssd-ldpi.png"
+           inkscape:export-xdpi="120"
+           inkscape:export-ydpi="120"><tspan
+             sodipodi:role="line"
+             id="tspan44219-5-1-4"
+             x="9.8353195"
+             y="115.29267"
+             style="font-weight:bold;stroke-width:0.12307692">Homozigoto</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.12307692"
+           x="19.51087"
+           y="118.0549"
+           id="text44221-7-9-2-2-4"
+           inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-ssd/metodo-ssd-ldpi.png"
+           inkscape:export-xdpi="120"
+           inkscape:export-ydpi="120"><tspan
+             sodipodi:role="line"
+             id="tspan44219-5-2-8-9-7"
+             x="19.51087"
+             y="118.0549"
+             style="font-weight:bold;stroke-width:0.12307692">aa</tspan></text>
+      </g>
+      <g
+         id="g4608-8"
+         transform="matrix(0.01533529,0,0,0.01533529,19.317483,158.03903)"
+         style="fill:#ff0000;stroke-width:21.26728058;stroke-miterlimit:11;stroke-dasharray:none">
+        <g
+           id="g4606-8"
+           style="fill:#ff0000;stroke-width:21.26728058;stroke-miterlimit:11;stroke-dasharray:none">
+          <polygon
+             id="polygon4604-8"
+             points="135.317,120.235 120.235,135.328 240.917,256 120.235,376.672 135.317,391.765 256,271.083 376.683,391.765 391.765,376.672 271.083,256 391.765,135.328 376.683,120.235 256,240.917 "
+             style="fill:#ff0000;stroke-width:21.26728058;stroke-miterlimit:11;stroke-dasharray:none" />
+        </g>
+      </g>
+      <g
+         id="g4522-1-6"
+         transform="matrix(0.8153514,0,0,0.8153514,32.305533,65.390077)">
+        <g
+           inkscape:export-ydpi="96"
+           inkscape:export-xdpi="96"
+           id="g3785-3-7-3-9-0-9-3-5-1-3-2-3"
+           transform="matrix(0.02809694,0,0,0.02809694,15.230281,99.911612)">
+          <g
+             id="g3951-8-6-4-9-8-6-6-4-8-9-1">
+            <g
+               id="g3725-6-5-7-4-8-6-7-9-9-5-3-7">
+              <path
+                 inkscape:connector-curvature="0"
+                 style="fill:#4caf50"
+                 d="M 188.864,67.349 C 147.819,26.325 67.499,21.568 10.667,21.568 4.776,21.568 0,26.344 0,32.235 c 0,56.853 4.757,137.173 45.781,178.219 19.261,17.154 44.438,26.143 70.208,25.067 26.571,1.047 52.57,-7.896 72.875,-25.067 30.571,-30.593 36.181,-106.923 0,-143.105 z"
+                 id="path3721-7-7-5-20-0-3-5-3-2-61-1-5" />
+              <path
+                 inkscape:connector-curvature="0"
+                 style="fill:#d35f5f;fill-opacity:1"
+                 d="m 459.136,63.765 c -56.853,0 -137.173,4.757 -178.219,45.781 -36.267,36.267 -30.571,112.491 0,143.083 20.311,17.174 46.318,26.117 72.896,25.067 25.769,1.074 50.946,-7.915 70.208,-25.067 41.045,-41.045 45.781,-121.365 45.781,-178.219 -0.011,-5.882 -4.783,-10.645 -10.666,-10.645 z"
+                 id="path3723-5-4-3-0-3-88-3-7-0-15-9-9" />
+            </g>
+            <path
+               inkscape:connector-curvature="0"
+               style="fill:#388e3c"
+               d="m 224,448.235 c -5.891,0 -10.667,-4.776 -10.667,-10.667 0,-226.24 -82.965,-283.008 -114.197,-304.363 -3.767,-2.405 -7.334,-5.109 -10.667,-8.085 -4.093,-4.237 -3.975,-10.99 0.262,-15.083 4.134,-3.993 10.687,-3.993 14.821,0 2.409,2.037 4.961,3.898 7.637,5.568 27.733,18.965 93.056,63.659 115.648,210.261 17.459,-76.645 69.213,-140.995 140.331,-174.485 5.446,-2.562 11.946,-0.51 14.933,4.715 2.698,4.755 1.032,10.796 -3.723,13.495 -0.178,0.101 -0.36,0.197 -0.544,0.287 l -1.728,0.811 c -116.949,54.976 -141.504,175.467 -141.504,266.88 0.001,5.865 -4.736,10.63 -10.602,10.666 z"
+               id="path3727-3-1-5-00-1-6-5-4-6-9-47-6" />
+          </g>
+          <g
+             id="g3729-5-8-6-81-4-68-6-5-8-8-8-2" />
+          <g
+             id="g3731-6-5-2-71-8-8-2-2-9-4-4-1" />
+          <g
+             id="g3733-2-97-9-9-9-2-9-5-2-8-50-7" />
+          <g
+             id="g3735-9-53-1-9-0-1-1-4-6-1-3-8" />
+          <g
+             id="g3737-1-8-2-09-5-18-2-7-6-0-6-5" />
+          <g
+             id="g3739-2-8-7-34-1-3-70-4-4-3-1-7" />
+          <g
+             id="g3741-7-3-0-731-3-86-9-4-9-04-06-4" />
+          <g
+             id="g3743-0-1-9-7-0-0-3-3-5-4-32-1" />
+          <g
+             id="g3745-9-8-3-82-1-8-6-07-0-4-0-8" />
+          <g
+             id="g3747-3-9-6-5-9-07-0-8-4-4-61-5" />
+          <g
+             id="g3749-6-6-0-3-9-36-6-6-8-76-55-9" />
+          <g
+             id="g3751-0-4-6-12-2-5-2-8-7-3-4-7" />
+          <g
+             id="g3753-6-3-2-12-0-5-6-8-1-17-76-5" />
+          <g
+             id="g3755-2-3-6-92-0-6-1-4-7-59-56-3" />
+          <g
+             id="g3757-6-3-1-64-7-93-8-3-2-6-9-8" />
+        </g>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.12307692"
+           x="8.7811203"
+           y="115.29267"
+           id="text44221-7-3-8"
+           inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-ssd/metodo-ssd-ldpi.png"
+           inkscape:export-xdpi="120"
+           inkscape:export-ydpi="120"><tspan
+             sodipodi:role="line"
+             id="tspan44219-5-7-3"
+             x="8.7811203"
+             y="115.29267"
+             style="font-weight:bold;stroke-width:0.12307692">Heterozigoto</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.12307692"
+           x="19.51087"
+           y="118.0549"
+           id="text44221-7-9-2-4-1"
+           inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-ssd/metodo-ssd-ldpi.png"
+           inkscape:export-xdpi="120"
+           inkscape:export-ydpi="120"><tspan
+             sodipodi:role="line"
+             id="tspan44219-5-2-8-5-8"
+             x="19.51087"
+             y="118.0549"
+             style="font-weight:bold;stroke-width:0.12307692">Aa</tspan></text>
+      </g>
+      <text
+         id="text44221-2-3-4-9"
+         y="163.77393"
+         x="60.827808"
+         style="font-style:normal;font-weight:normal;font-size:4.60220671px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.10035094"
+         xml:space="preserve"
+         inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-ssd/metodo-ssd-ldpi.png"
+         inkscape:export-xdpi="120"
+         inkscape:export-ydpi="120"><tspan
+           style="font-weight:bold;stroke-width:0.10035094"
+           y="163.77393"
+           x="60.827808"
+           id="tspan44219-1-6-9-7"
+           sodipodi:role="line">X</tspan></text>
+      <g
+         id="g4522-7-7"
+         transform="matrix(0.8153514,0,0,0.8153514,57.720183,65.499847)">
+        <g
+           inkscape:export-ydpi="96"
+           inkscape:export-xdpi="96"
+           id="g3785-3-7-3-9-0-9-3-5-1-3-1-6"
+           transform="matrix(0.02809694,0,0,0.02809694,15.230281,99.911612)">
+          <g
+             id="g3951-8-6-4-9-8-6-6-4-8-72-4">
+            <g
+               id="g3725-6-5-7-4-8-6-7-9-9-5-72-3">
+              <path
+                 inkscape:connector-curvature="0"
+                 style="fill:#4caf50"
+                 d="M 188.864,67.349 C 147.819,26.325 67.499,21.568 10.667,21.568 4.776,21.568 0,26.344 0,32.235 c 0,56.853 4.757,137.173 45.781,178.219 19.261,17.154 44.438,26.143 70.208,25.067 26.571,1.047 52.57,-7.896 72.875,-25.067 30.571,-30.593 36.181,-106.923 0,-143.105 z"
+                 id="path3721-7-7-5-20-0-3-5-3-2-61-26-0" />
+              <path
+                 inkscape:connector-curvature="0"
+                 style="fill:#4caf50"
+                 d="m 459.136,63.765 c -56.853,0 -137.173,4.757 -178.219,45.781 -36.267,36.267 -30.571,112.491 0,143.083 20.311,17.174 46.318,26.117 72.896,25.067 25.769,1.074 50.946,-7.915 70.208,-25.067 41.045,-41.045 45.781,-121.365 45.781,-178.219 -0.011,-5.882 -4.783,-10.645 -10.666,-10.645 z"
+                 id="path3723-5-4-3-0-3-88-3-7-0-15-10-3" />
+            </g>
+            <path
+               inkscape:connector-curvature="0"
+               style="fill:#388e3c"
+               d="m 224,448.235 c -5.891,0 -10.667,-4.776 -10.667,-10.667 0,-226.24 -82.965,-283.008 -114.197,-304.363 -3.767,-2.405 -7.334,-5.109 -10.667,-8.085 -4.093,-4.237 -3.975,-10.99 0.262,-15.083 4.134,-3.993 10.687,-3.993 14.821,0 2.409,2.037 4.961,3.898 7.637,5.568 27.733,18.965 93.056,63.659 115.648,210.261 17.459,-76.645 69.213,-140.995 140.331,-174.485 5.446,-2.562 11.946,-0.51 14.933,4.715 2.698,4.755 1.032,10.796 -3.723,13.495 -0.178,0.101 -0.36,0.197 -0.544,0.287 l -1.728,0.811 c -116.949,54.976 -141.504,175.467 -141.504,266.88 0.001,5.865 -4.736,10.63 -10.602,10.666 z"
+               id="path3727-3-1-5-00-1-6-5-4-6-9-61-0" />
+          </g>
+          <g
+             id="g3729-5-8-6-81-4-68-6-5-8-8-5-9" />
+          <g
+             id="g3731-6-5-2-71-8-8-2-2-9-4-94-2" />
+          <g
+             id="g3733-2-97-9-9-9-2-9-5-2-8-9-5" />
+          <g
+             id="g3735-9-53-1-9-0-1-1-4-6-1-09-4" />
+          <g
+             id="g3737-1-8-2-09-5-18-2-7-6-0-17-0" />
+          <g
+             id="g3739-2-8-7-34-1-3-70-4-4-3-7-59" />
+          <g
+             id="g3741-7-3-0-731-3-86-9-4-9-04-11-4" />
+          <g
+             id="g3743-0-1-9-7-0-0-3-3-5-4-5-6" />
+          <g
+             id="g3745-9-8-3-82-1-8-6-07-0-4-9-9" />
+          <g
+             id="g3747-3-9-6-5-9-07-0-8-4-4-77-2" />
+          <g
+             id="g3749-6-6-0-3-9-36-6-6-8-76-67-2" />
+          <g
+             id="g3751-0-4-6-12-2-5-2-8-7-3-3-4" />
+          <g
+             id="g3753-6-3-2-12-0-5-6-8-1-17-6-7" />
+          <g
+             id="g3755-2-3-6-92-0-6-1-4-7-59-563-7" />
+          <g
+             id="g3757-6-3-1-64-7-93-8-3-2-6-94-5" />
+        </g>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.12307692"
+           x="10.704345"
+           y="115.29267"
+           id="text44221-7-8-48"
+           inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-ssd/metodo-ssd-ldpi.png"
+           inkscape:export-xdpi="120"
+           inkscape:export-ydpi="120"><tspan
+             sodipodi:role="line"
+             id="tspan44219-5-1-1"
+             x="10.704345"
+             y="115.29267"
+             style="font-weight:bold;stroke-width:0.12307692">Recorrente</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.12307692"
+           x="19.51087"
+           y="118.0549"
+           id="text44221-7-9-2-2-2"
+           inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-ssd/metodo-ssd-ldpi.png"
+           inkscape:export-xdpi="120"
+           inkscape:export-ydpi="120"><tspan
+             sodipodi:role="line"
+             id="tspan44219-5-2-8-9-8"
+             x="19.51087"
+             y="118.0549"
+             style="font-weight:bold;stroke-width:0.12307692">aa</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g12137"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-retrocruzamento/recorrente-recessivo/retrocruzamento-recorrente-recessivo-ldpi.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120">
+      <g
+         id="g9353-0"
+         transform="matrix(0.8153514,0,0,0.8153514,22.02171,35.927465)">
+        <g
+           transform="translate(15.720082,68.302191)"
+           id="g4522-7-8-4">
+          <g
+             transform="matrix(0.02809694,0,0,0.02809694,15.230281,99.911612)"
+             id="g3785-3-7-3-9-0-9-3-5-1-3-1-8-6"
+             inkscape:export-xdpi="96"
+             inkscape:export-ydpi="96">
+            <g
+               id="g3951-8-6-4-9-8-6-6-4-8-72-5-2">
+              <g
+                 id="g3725-6-5-7-4-8-6-7-9-9-5-72-0-6">
+                <path
+                   id="path3721-7-7-5-20-0-3-5-3-2-61-26-9-7"
+                   d="M 188.864,67.349 C 147.819,26.325 67.499,21.568 10.667,21.568 4.776,21.568 0,26.344 0,32.235 c 0,56.853 4.757,137.173 45.781,178.219 19.261,17.154 44.438,26.143 70.208,25.067 26.571,1.047 52.57,-7.896 72.875,-25.067 30.571,-30.593 36.181,-106.923 0,-143.105 z"
+                   style="fill:#4caf50"
+                   inkscape:connector-curvature="0" />
+                <path
+                   id="path3723-5-4-3-0-3-88-3-7-0-15-10-6-5"
+                   d="m 459.136,63.765 c -56.853,0 -137.173,4.757 -178.219,45.781 -36.267,36.267 -30.571,112.491 0,143.083 20.311,17.174 46.318,26.117 72.896,25.067 25.769,1.074 50.946,-7.915 70.208,-25.067 41.045,-41.045 45.781,-121.365 45.781,-178.219 -0.011,-5.882 -4.783,-10.645 -10.666,-10.645 z"
+                   style="fill:#4caf50"
+                   inkscape:connector-curvature="0" />
+              </g>
+              <path
+                 id="path3727-3-1-5-00-1-6-5-4-6-9-61-3-6"
+                 d="m 224,448.235 c -5.891,0 -10.667,-4.776 -10.667,-10.667 0,-226.24 -82.965,-283.008 -114.197,-304.363 -3.767,-2.405 -7.334,-5.109 -10.667,-8.085 -4.093,-4.237 -3.975,-10.99 0.262,-15.083 4.134,-3.993 10.687,-3.993 14.821,0 2.409,2.037 4.961,3.898 7.637,5.568 27.733,18.965 93.056,63.659 115.648,210.261 17.459,-76.645 69.213,-140.995 140.331,-174.485 5.446,-2.562 11.946,-0.51 14.933,4.715 2.698,4.755 1.032,10.796 -3.723,13.495 -0.178,0.101 -0.36,0.197 -0.544,0.287 l -1.728,0.811 c -116.949,54.976 -141.504,175.467 -141.504,266.88 0.001,5.865 -4.736,10.63 -10.602,10.666 z"
+                 style="fill:#388e3c"
+                 inkscape:connector-curvature="0" />
+            </g>
+            <g
+               id="g3729-5-8-6-81-4-68-6-5-8-8-5-8-9" />
+            <g
+               id="g3731-6-5-2-71-8-8-2-2-9-4-94-5-8" />
+            <g
+               id="g3733-2-97-9-9-9-2-9-5-2-8-9-6-7" />
+            <g
+               id="g3735-9-53-1-9-0-1-1-4-6-1-09-1-2" />
+            <g
+               id="g3737-1-8-2-09-5-18-2-7-6-0-17-1-8" />
+            <g
+               id="g3739-2-8-7-34-1-3-70-4-4-3-7-5-2" />
+            <g
+               id="g3741-7-3-0-731-3-86-9-4-9-04-11-9-9" />
+            <g
+               id="g3743-0-1-9-7-0-0-3-3-5-4-5-8-9" />
+            <g
+               id="g3745-9-8-3-82-1-8-6-07-0-4-9-4-6" />
+            <g
+               id="g3747-3-9-6-5-9-07-0-8-4-4-77-8-0" />
+            <g
+               id="g3749-6-6-0-3-9-36-6-6-8-76-67-1-2" />
+            <g
+               id="g3751-0-4-6-12-2-5-2-8-7-3-3-0-7" />
+            <g
+               id="g3753-6-3-2-12-0-5-6-8-1-17-6-3-6" />
+            <g
+               id="g3755-2-3-6-92-0-6-1-4-7-59-563-0-1" />
+            <g
+               id="g3757-6-3-1-64-7-93-8-3-2-6-94-4-3" />
+          </g>
+          <text
+             inkscape:export-ydpi="120"
+             inkscape:export-xdpi="120"
+             inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-ssd/metodo-ssd-ldpi.png"
+             id="text44221-7-8-4-2"
+             y="115.29267"
+             x="9.8353195"
+             style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.12307692"
+             xml:space="preserve"><tspan
+               style="font-weight:bold;stroke-width:0.12307692"
+               y="115.29267"
+               x="9.8353195"
+               id="tspan44219-5-1-4-1"
+               sodipodi:role="line">Homozigoto</tspan></text>
+          <text
+             inkscape:export-ydpi="120"
+             inkscape:export-xdpi="120"
+             inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-ssd/metodo-ssd-ldpi.png"
+             id="text44221-7-9-2-2-4-5"
+             y="118.0549"
+             x="19.51087"
+             style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.12307692"
+             xml:space="preserve"><tspan
+               style="font-weight:bold;stroke-width:0.12307692"
+               y="118.0549"
+               x="19.51087"
+               id="tspan44219-5-2-8-9-7-9"
+               sodipodi:role="line">aa</tspan></text>
+        </g>
+        <g
+           id="g9081-9">
+          <g
+             id="g4608-8-1"
+             transform="matrix(0.01880823,0,0,0.01880823,26.564267,182.43803)"
+             style="fill:#ff0000;stroke-width:21.26728058;stroke-miterlimit:11;stroke-dasharray:none">
+            <g
+               id="g4606-8-4"
+               style="fill:#ff0000;stroke-width:21.26728058;stroke-miterlimit:11;stroke-dasharray:none">
+              <polygon
+                 id="polygon4604-8-9"
+                 points="120.235,135.328 240.917,256 120.235,376.672 135.317,391.765 256,271.083 376.683,391.765 391.765,376.672 271.083,256 391.765,135.328 376.683,120.235 256,240.917 135.317,120.235 "
+                 style="fill:#ff0000;stroke-width:21.26728058;stroke-miterlimit:11;stroke-dasharray:none" />
+            </g>
+          </g>
+          <g
+             id="g4522-1-6-1"
+             transform="translate(42.493659,68.807352)">
+            <g
+               inkscape:export-ydpi="96"
+               inkscape:export-xdpi="96"
+               id="g3785-3-7-3-9-0-9-3-5-1-3-2-3-0"
+               transform="matrix(0.02809694,0,0,0.02809694,15.230281,99.911612)">
+              <g
+                 id="g3951-8-6-4-9-8-6-6-4-8-9-1-7">
+                <g
+                   id="g3725-6-5-7-4-8-6-7-9-9-5-3-7-5">
+                  <path
+                     inkscape:connector-curvature="0"
+                     style="fill:#4caf50"
+                     d="M 188.864,67.349 C 147.819,26.325 67.499,21.568 10.667,21.568 4.776,21.568 0,26.344 0,32.235 c 0,56.853 4.757,137.173 45.781,178.219 19.261,17.154 44.438,26.143 70.208,25.067 26.571,1.047 52.57,-7.896 72.875,-25.067 30.571,-30.593 36.181,-106.923 0,-143.105 z"
+                     id="path3721-7-7-5-20-0-3-5-3-2-61-1-5-8" />
+                  <path
+                     inkscape:connector-curvature="0"
+                     style="fill:#d35f5f;fill-opacity:1"
+                     d="m 459.136,63.765 c -56.853,0 -137.173,4.757 -178.219,45.781 -36.267,36.267 -30.571,112.491 0,143.083 20.311,17.174 46.318,26.117 72.896,25.067 25.769,1.074 50.946,-7.915 70.208,-25.067 41.045,-41.045 45.781,-121.365 45.781,-178.219 -0.011,-5.882 -4.783,-10.645 -10.666,-10.645 z"
+                     id="path3723-5-4-3-0-3-88-3-7-0-15-9-9-7" />
+                </g>
+                <path
+                   inkscape:connector-curvature="0"
+                   style="fill:#388e3c"
+                   d="m 224,448.235 c -5.891,0 -10.667,-4.776 -10.667,-10.667 0,-226.24 -82.965,-283.008 -114.197,-304.363 -3.767,-2.405 -7.334,-5.109 -10.667,-8.085 -4.093,-4.237 -3.975,-10.99 0.262,-15.083 4.134,-3.993 10.687,-3.993 14.821,0 2.409,2.037 4.961,3.898 7.637,5.568 27.733,18.965 93.056,63.659 115.648,210.261 17.459,-76.645 69.213,-140.995 140.331,-174.485 5.446,-2.562 11.946,-0.51 14.933,4.715 2.698,4.755 1.032,10.796 -3.723,13.495 -0.178,0.101 -0.36,0.197 -0.544,0.287 l -1.728,0.811 c -116.949,54.976 -141.504,175.467 -141.504,266.88 0.001,5.865 -4.736,10.63 -10.602,10.666 z"
+                   id="path3727-3-1-5-00-1-6-5-4-6-9-47-6-0" />
+              </g>
+              <g
+                 id="g3729-5-8-6-81-4-68-6-5-8-8-8-2-4" />
+              <g
+                 id="g3731-6-5-2-71-8-8-2-2-9-4-4-1-8" />
+              <g
+                 id="g3733-2-97-9-9-9-2-9-5-2-8-50-7-0" />
+              <g
+                 id="g3735-9-53-1-9-0-1-1-4-6-1-3-8-4" />
+              <g
+                 id="g3737-1-8-2-09-5-18-2-7-6-0-6-5-2" />
+              <g
+                 id="g3739-2-8-7-34-1-3-70-4-4-3-1-7-9" />
+              <g
+                 id="g3741-7-3-0-731-3-86-9-4-9-04-06-4-6" />
+              <g
+                 id="g3743-0-1-9-7-0-0-3-3-5-4-32-1-1" />
+              <g
+                 id="g3745-9-8-3-82-1-8-6-07-0-4-0-8-0" />
+              <g
+                 id="g3747-3-9-6-5-9-07-0-8-4-4-61-5-4" />
+              <g
+                 id="g3749-6-6-0-3-9-36-6-6-8-76-55-9-2" />
+              <g
+                 id="g3751-0-4-6-12-2-5-2-8-7-3-4-7-2" />
+              <g
+                 id="g3753-6-3-2-12-0-5-6-8-1-17-76-5-2" />
+              <g
+                 id="g3755-2-3-6-92-0-6-1-4-7-59-56-3-0" />
+              <g
+                 id="g3757-6-3-1-64-7-93-8-3-2-6-9-8-5" />
+            </g>
+            <text
+               xml:space="preserve"
+               style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.12307692"
+               x="8.7811203"
+               y="115.29267"
+               id="text44221-7-3-8-5"
+               inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-ssd/metodo-ssd-ldpi.png"
+               inkscape:export-xdpi="120"
+               inkscape:export-ydpi="120"><tspan
+                 sodipodi:role="line"
+                 id="tspan44219-5-7-3-2"
+                 x="8.7811203"
+                 y="115.29267"
+                 style="font-weight:bold;stroke-width:0.12307692">Heterozigoto</tspan></text>
+            <text
+               xml:space="preserve"
+               style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.12307692"
+               x="19.51087"
+               y="118.0549"
+               id="text44221-7-9-2-4-1-9"
+               inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-ssd/metodo-ssd-ldpi.png"
+               inkscape:export-xdpi="120"
+               inkscape:export-ydpi="120"><tspan
+                 sodipodi:role="line"
+                 id="tspan44219-5-2-8-5-8-0"
+                 x="19.51087"
+                 y="118.0549"
+                 style="font-weight:bold;stroke-width:0.12307692">Aa</tspan></text>
+          </g>
+          <text
+             id="text44221-2-3-4-9-2"
+             y="189.47177"
+             x="77.475197"
+             style="font-style:normal;font-weight:normal;font-size:5.64444447px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.12307692"
+             xml:space="preserve"
+             inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-ssd/metodo-ssd-ldpi.png"
+             inkscape:export-xdpi="120"
+             inkscape:export-ydpi="120"><tspan
+               style="font-weight:bold;stroke-width:0.12307692"
+               y="189.47177"
+               x="77.475197"
+               id="tspan44219-1-6-9-7-8"
+               sodipodi:role="line">X</tspan></text>
+          <g
+             id="g4522-7-7-3"
+             transform="translate(73.66384,68.941978)">
+            <g
+               inkscape:export-ydpi="96"
+               inkscape:export-xdpi="96"
+               id="g3785-3-7-3-9-0-9-3-5-1-3-1-6-8"
+               transform="matrix(0.02809694,0,0,0.02809694,15.230281,99.911612)">
+              <g
+                 id="g3951-8-6-4-9-8-6-6-4-8-72-4-0">
+                <g
+                   id="g3725-6-5-7-4-8-6-7-9-9-5-72-3-4">
+                  <path
+                     inkscape:connector-curvature="0"
+                     style="fill:#4caf50"
+                     d="M 188.864,67.349 C 147.819,26.325 67.499,21.568 10.667,21.568 4.776,21.568 0,26.344 0,32.235 c 0,56.853 4.757,137.173 45.781,178.219 19.261,17.154 44.438,26.143 70.208,25.067 26.571,1.047 52.57,-7.896 72.875,-25.067 30.571,-30.593 36.181,-106.923 0,-143.105 z"
+                     id="path3721-7-7-5-20-0-3-5-3-2-61-26-0-0" />
+                  <path
+                     inkscape:connector-curvature="0"
+                     style="fill:#4caf50"
+                     d="m 459.136,63.765 c -56.853,0 -137.173,4.757 -178.219,45.781 -36.267,36.267 -30.571,112.491 0,143.083 20.311,17.174 46.318,26.117 72.896,25.067 25.769,1.074 50.946,-7.915 70.208,-25.067 41.045,-41.045 45.781,-121.365 45.781,-178.219 -0.011,-5.882 -4.783,-10.645 -10.666,-10.645 z"
+                     id="path3723-5-4-3-0-3-88-3-7-0-15-10-3-9" />
+                </g>
+                <path
+                   inkscape:connector-curvature="0"
+                   style="fill:#388e3c"
+                   d="m 224,448.235 c -5.891,0 -10.667,-4.776 -10.667,-10.667 0,-226.24 -82.965,-283.008 -114.197,-304.363 -3.767,-2.405 -7.334,-5.109 -10.667,-8.085 -4.093,-4.237 -3.975,-10.99 0.262,-15.083 4.134,-3.993 10.687,-3.993 14.821,0 2.409,2.037 4.961,3.898 7.637,5.568 27.733,18.965 93.056,63.659 115.648,210.261 17.459,-76.645 69.213,-140.995 140.331,-174.485 5.446,-2.562 11.946,-0.51 14.933,4.715 2.698,4.755 1.032,10.796 -3.723,13.495 -0.178,0.101 -0.36,0.197 -0.544,0.287 l -1.728,0.811 c -116.949,54.976 -141.504,175.467 -141.504,266.88 0.001,5.865 -4.736,10.63 -10.602,10.666 z"
+                   id="path3727-3-1-5-00-1-6-5-4-6-9-61-0-1" />
+              </g>
+              <g
+                 id="g3729-5-8-6-81-4-68-6-5-8-8-5-9-9" />
+              <g
+                 id="g3731-6-5-2-71-8-8-2-2-9-4-94-2-6" />
+              <g
+                 id="g3733-2-97-9-9-9-2-9-5-2-8-9-5-2" />
+              <g
+                 id="g3735-9-53-1-9-0-1-1-4-6-1-09-4-5" />
+              <g
+                 id="g3737-1-8-2-09-5-18-2-7-6-0-17-0-4" />
+              <g
+                 id="g3739-2-8-7-34-1-3-70-4-4-3-7-59-4" />
+              <g
+                 id="g3741-7-3-0-731-3-86-9-4-9-04-11-4-9" />
+              <g
+                 id="g3743-0-1-9-7-0-0-3-3-5-4-5-6-9" />
+              <g
+                 id="g3745-9-8-3-82-1-8-6-07-0-4-9-9-3" />
+              <g
+                 id="g3747-3-9-6-5-9-07-0-8-4-4-77-2-6" />
+              <g
+                 id="g3749-6-6-0-3-9-36-6-6-8-76-67-2-0" />
+              <g
+                 id="g3751-0-4-6-12-2-5-2-8-7-3-3-4-5" />
+              <g
+                 id="g3753-6-3-2-12-0-5-6-8-1-17-6-7-0" />
+              <g
+                 id="g3755-2-3-6-92-0-6-1-4-7-59-563-7-2" />
+              <g
+                 id="g3757-6-3-1-64-7-93-8-3-2-6-94-5-9" />
+            </g>
+            <text
+               xml:space="preserve"
+               style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.12307692"
+               x="10.704345"
+               y="115.29267"
+               id="text44221-7-8-48-4"
+               inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-ssd/metodo-ssd-ldpi.png"
+               inkscape:export-xdpi="120"
+               inkscape:export-ydpi="120"><tspan
+                 sodipodi:role="line"
+                 id="tspan44219-5-1-1-3"
+                 x="10.704345"
+                 y="115.29267"
+                 style="font-weight:bold;stroke-width:0.12307692">Recorrente</tspan></text>
+            <text
+               xml:space="preserve"
+               style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.12307692"
+               x="19.51087"
+               y="118.0549"
+               id="text44221-7-9-2-2-2-5"
+               inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-ssd/metodo-ssd-ldpi.png"
+               inkscape:export-xdpi="120"
+               inkscape:export-ydpi="120"><tspan
+                 sodipodi:role="line"
+                 id="tspan44219-5-2-8-9-8-1"
+                 x="19.51087"
+                 y="118.0549"
+                 style="font-weight:bold;stroke-width:0.12307692">aa</tspan></text>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g
+       id="g8632-4"
+       transform="matrix(0.8153514,0,0,0.8153514,20.542098,36.527676)"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-retrocruzamento/recorrente-recessivo/retrocruzamento-recorrente-recessivo-ldpi.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120">
+      <path
+         inkscape:export-ydpi="120"
+         inkscape:export-xdpi="120"
+         inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-ssd/metodo-ssd-ldpi.png"
+         inkscape:connector-curvature="0"
+         id="path23965-3-8-0-6"
+         d="m 59.512241,163.79005 -4.63727,-5.56379"
+         style="fill:#4cafe5;fill-opacity:1;stroke:#4cafe5;stroke-width:0.48334074;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:11;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Mstart-5-5-3-7)" />
+      <path
+         inkscape:export-ydpi="120"
+         inkscape:export-xdpi="120"
+         inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-ssd/metodo-ssd-ldpi.png"
+         inkscape:connector-curvature="0"
+         id="path23965-3-8-0-4-9"
+         d="m 43.68346,164.11113 4.876072,-5.85031"
+         style="fill:#4cafe5;fill-opacity:1;stroke:#4cafe5;stroke-width:0.50823092;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:11;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Mstart-5-5-3-8-3)" />
+    </g>
+    <g
+       transform="matrix(0.8153514,0,0,0.8153514,58.608168,116.25833)"
+       id="g4522-7-8-4-2"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-retrocruzamento/recorrente-recessivo/retrocruzamento-recorrente-recessivo-ldpi.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120">
+      <g
+         transform="matrix(0.02809694,0,0,0.02809694,15.230281,99.911612)"
+         id="g3785-3-7-3-9-0-9-3-5-1-3-1-8-6-2"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96">
+        <g
+           id="g3951-8-6-4-9-8-6-6-4-8-72-5-2-6">
+          <g
+             id="g3725-6-5-7-4-8-6-7-9-9-5-72-0-6-4">
+            <path
+               id="path3721-7-7-5-20-0-3-5-3-2-61-26-9-7-1"
+               d="M 188.864,67.349 C 147.819,26.325 67.499,21.568 10.667,21.568 4.776,21.568 0,26.344 0,32.235 c 0,56.853 4.757,137.173 45.781,178.219 19.261,17.154 44.438,26.143 70.208,25.067 26.571,1.047 52.57,-7.896 72.875,-25.067 30.571,-30.593 36.181,-106.923 0,-143.105 z"
+               style="fill:#4caf50"
+               inkscape:connector-curvature="0" />
+            <path
+               id="path3723-5-4-3-0-3-88-3-7-0-15-10-6-5-2"
+               d="m 459.136,63.765 c -56.853,0 -137.173,4.757 -178.219,45.781 -36.267,36.267 -30.571,112.491 0,143.083 20.311,17.174 46.318,26.117 72.896,25.067 25.769,1.074 50.946,-7.915 70.208,-25.067 41.045,-41.045 45.781,-121.365 45.781,-178.219 -0.011,-5.882 -4.783,-10.645 -10.666,-10.645 z"
+               style="fill:#4caf50"
+               inkscape:connector-curvature="0" />
+          </g>
+          <path
+             id="path3727-3-1-5-00-1-6-5-4-6-9-61-3-6-8"
+             d="m 224,448.235 c -5.891,0 -10.667,-4.776 -10.667,-10.667 0,-226.24 -82.965,-283.008 -114.197,-304.363 -3.767,-2.405 -7.334,-5.109 -10.667,-8.085 -4.093,-4.237 -3.975,-10.99 0.262,-15.083 4.134,-3.993 10.687,-3.993 14.821,0 2.409,2.037 4.961,3.898 7.637,5.568 27.733,18.965 93.056,63.659 115.648,210.261 17.459,-76.645 69.213,-140.995 140.331,-174.485 5.446,-2.562 11.946,-0.51 14.933,4.715 2.698,4.755 1.032,10.796 -3.723,13.495 -0.178,0.101 -0.36,0.197 -0.544,0.287 l -1.728,0.811 c -116.949,54.976 -141.504,175.467 -141.504,266.88 0.001,5.865 -4.736,10.63 -10.602,10.666 z"
+             style="fill:#388e3c"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g3729-5-8-6-81-4-68-6-5-8-8-5-8-9-8" />
+        <g
+           id="g3731-6-5-2-71-8-8-2-2-9-4-94-5-8-9" />
+        <g
+           id="g3733-2-97-9-9-9-2-9-5-2-8-9-6-7-2" />
+        <g
+           id="g3735-9-53-1-9-0-1-1-4-6-1-09-1-2-8" />
+        <g
+           id="g3737-1-8-2-09-5-18-2-7-6-0-17-1-8-8" />
+        <g
+           id="g3739-2-8-7-34-1-3-70-4-4-3-7-5-2-8" />
+        <g
+           id="g3741-7-3-0-731-3-86-9-4-9-04-11-9-9-6" />
+        <g
+           id="g3743-0-1-9-7-0-0-3-3-5-4-5-8-9-8" />
+        <g
+           id="g3745-9-8-3-82-1-8-6-07-0-4-9-4-6-3" />
+        <g
+           id="g3747-3-9-6-5-9-07-0-8-4-4-77-8-0-8" />
+        <g
+           id="g3749-6-6-0-3-9-36-6-6-8-76-67-1-2-3" />
+        <g
+           id="g3751-0-4-6-12-2-5-2-8-7-3-3-0-7-3" />
+        <g
+           id="g3753-6-3-2-12-0-5-6-8-1-17-6-3-6-3" />
+        <g
+           id="g3755-2-3-6-92-0-6-1-4-7-59-563-0-1-8" />
+        <g
+           id="g3757-6-3-1-64-7-93-8-3-2-6-94-4-3-0" />
+      </g>
+      <text
+         inkscape:export-ydpi="120"
+         inkscape:export-xdpi="120"
+         inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-ssd/metodo-ssd-ldpi.png"
+         id="text44221-7-8-4-2-4"
+         y="115.29267"
+         x="9.8353195"
+         style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.12307692"
+         xml:space="preserve"><tspan
+           style="font-weight:bold;stroke-width:0.12307692"
+           y="115.29267"
+           x="9.8353195"
+           id="tspan44219-5-1-4-1-7"
+           sodipodi:role="line">Homozigoto</tspan></text>
+      <text
+         inkscape:export-ydpi="120"
+         inkscape:export-xdpi="120"
+         inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-ssd/metodo-ssd-ldpi.png"
+         id="text44221-7-9-2-2-4-5-6"
+         y="118.0549"
+         x="19.51087"
+         style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.12307692"
+         xml:space="preserve"><tspan
+           style="font-weight:bold;stroke-width:0.12307692"
+           y="118.0549"
+           x="19.51087"
+           id="tspan44219-5-2-8-9-7-9-8"
+           sodipodi:role="line">aa</tspan></text>
+    </g>
+    <g
+       style="fill:#ff0000;stroke-width:21.26728058;stroke-miterlimit:11;stroke-dasharray:none"
+       transform="matrix(0.01533532,0,0,0.01533532,67.449989,209.31914)"
+       id="g4608-8-1-0"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-retrocruzamento/recorrente-recessivo/retrocruzamento-recorrente-recessivo-ldpi.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120">
+      <g
+         style="fill:#ff0000;stroke-width:21.26728058;stroke-miterlimit:11;stroke-dasharray:none"
+         id="g4606-8-4-6">
+        <polygon
+           style="fill:#ff0000;stroke-width:21.26728058;stroke-miterlimit:11;stroke-dasharray:none"
+           points="120.235,135.328 240.917,256 120.235,376.672 135.317,391.765 256,271.083 376.683,391.765 391.765,376.672 271.083,256 391.765,135.328 376.683,120.235 256,240.917 135.317,120.235 "
+           id="polygon4604-8-9-8" />
+      </g>
+    </g>
+    <g
+       transform="matrix(0.8153514,0,0,0.8153514,80.438041,116.67021)"
+       id="g4522-1-6-1-7"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-retrocruzamento/recorrente-recessivo/retrocruzamento-recorrente-recessivo-ldpi.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120">
+      <g
+         transform="matrix(0.02809694,0,0,0.02809694,15.230281,99.911612)"
+         id="g3785-3-7-3-9-0-9-3-5-1-3-2-3-0-9"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96">
+        <g
+           id="g3951-8-6-4-9-8-6-6-4-8-9-1-7-0">
+          <g
+             id="g3725-6-5-7-4-8-6-7-9-9-5-3-7-5-3">
+            <path
+               id="path3721-7-7-5-20-0-3-5-3-2-61-1-5-8-3"
+               d="M 188.864,67.349 C 147.819,26.325 67.499,21.568 10.667,21.568 4.776,21.568 0,26.344 0,32.235 c 0,56.853 4.757,137.173 45.781,178.219 19.261,17.154 44.438,26.143 70.208,25.067 26.571,1.047 52.57,-7.896 72.875,-25.067 30.571,-30.593 36.181,-106.923 0,-143.105 z"
+               style="fill:#4caf50"
+               inkscape:connector-curvature="0" />
+            <path
+               id="path3723-5-4-3-0-3-88-3-7-0-15-9-9-7-3"
+               d="m 459.136,63.765 c -56.853,0 -137.173,4.757 -178.219,45.781 -36.267,36.267 -30.571,112.491 0,143.083 20.311,17.174 46.318,26.117 72.896,25.067 25.769,1.074 50.946,-7.915 70.208,-25.067 41.045,-41.045 45.781,-121.365 45.781,-178.219 -0.011,-5.882 -4.783,-10.645 -10.666,-10.645 z"
+               style="fill:#d35f5f;fill-opacity:1"
+               inkscape:connector-curvature="0" />
+          </g>
+          <path
+             id="path3727-3-1-5-00-1-6-5-4-6-9-47-6-0-7"
+             d="m 224,448.235 c -5.891,0 -10.667,-4.776 -10.667,-10.667 0,-226.24 -82.965,-283.008 -114.197,-304.363 -3.767,-2.405 -7.334,-5.109 -10.667,-8.085 -4.093,-4.237 -3.975,-10.99 0.262,-15.083 4.134,-3.993 10.687,-3.993 14.821,0 2.409,2.037 4.961,3.898 7.637,5.568 27.733,18.965 93.056,63.659 115.648,210.261 17.459,-76.645 69.213,-140.995 140.331,-174.485 5.446,-2.562 11.946,-0.51 14.933,4.715 2.698,4.755 1.032,10.796 -3.723,13.495 -0.178,0.101 -0.36,0.197 -0.544,0.287 l -1.728,0.811 c -116.949,54.976 -141.504,175.467 -141.504,266.88 0.001,5.865 -4.736,10.63 -10.602,10.666 z"
+             style="fill:#388e3c"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g3729-5-8-6-81-4-68-6-5-8-8-8-2-4-3" />
+        <g
+           id="g3731-6-5-2-71-8-8-2-2-9-4-4-1-8-2" />
+        <g
+           id="g3733-2-97-9-9-9-2-9-5-2-8-50-7-0-6" />
+        <g
+           id="g3735-9-53-1-9-0-1-1-4-6-1-3-8-4-5" />
+        <g
+           id="g3737-1-8-2-09-5-18-2-7-6-0-6-5-2-2" />
+        <g
+           id="g3739-2-8-7-34-1-3-70-4-4-3-1-7-9-6" />
+        <g
+           id="g3741-7-3-0-731-3-86-9-4-9-04-06-4-6-5" />
+        <g
+           id="g3743-0-1-9-7-0-0-3-3-5-4-32-1-1-8" />
+        <g
+           id="g3745-9-8-3-82-1-8-6-07-0-4-0-8-0-7" />
+        <g
+           id="g3747-3-9-6-5-9-07-0-8-4-4-61-5-4-9" />
+        <g
+           id="g3749-6-6-0-3-9-36-6-6-8-76-55-9-2-6" />
+        <g
+           id="g3751-0-4-6-12-2-5-2-8-7-3-4-7-2-0" />
+        <g
+           id="g3753-6-3-2-12-0-5-6-8-1-17-76-5-2-4" />
+        <g
+           id="g3755-2-3-6-92-0-6-1-4-7-59-56-3-0-1" />
+        <g
+           id="g3757-6-3-1-64-7-93-8-3-2-6-9-8-5-0" />
+      </g>
+      <text
+         inkscape:export-ydpi="120"
+         inkscape:export-xdpi="120"
+         inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-ssd/metodo-ssd-ldpi.png"
+         id="text44221-7-3-8-5-4"
+         y="115.29267"
+         x="8.7811203"
+         style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.12307692"
+         xml:space="preserve"><tspan
+           style="font-weight:bold;stroke-width:0.12307692"
+           y="115.29267"
+           x="8.7811203"
+           id="tspan44219-5-7-3-2-8"
+           sodipodi:role="line">Heterozigoto</tspan></text>
+      <text
+         inkscape:export-ydpi="120"
+         inkscape:export-xdpi="120"
+         inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-ssd/metodo-ssd-ldpi.png"
+         id="text44221-7-9-2-4-1-9-7"
+         y="118.0549"
+         x="19.51087"
+         style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.12307692"
+         xml:space="preserve"><tspan
+           style="font-weight:bold;stroke-width:0.12307692"
+           y="118.0549"
+           x="19.51087"
+           id="tspan44219-5-2-8-5-8-0-0"
+           sodipodi:role="line">Aa</tspan></text>
+    </g>
+    <text
+       inkscape:export-ydpi="120"
+       inkscape:export-xdpi="120"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-retrocruzamento/recorrente-recessivo/retrocruzamento-recorrente-recessivo-ldpi.png"
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.60220575px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.10035094"
+       x="108.96029"
+       y="215.05411"
+       id="text44221-2-3-4-9-2-8"><tspan
+         sodipodi:role="line"
+         id="tspan44219-1-6-9-7-8-6"
+         x="108.96029"
+         y="215.05411"
+         style="font-weight:bold;stroke-width:0.10035094">X</tspan></text>
+    <g
+       inkscape:export-ydpi="120"
+       inkscape:export-xdpi="120"
+       id="g3785-3-7-3-9-0-9-3-5-1-3-1-6-8-4"
+       transform="matrix(0.02290888,0,0,0.02290888,118.27072,198.24305)"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-retrocruzamento/recorrente-recessivo/retrocruzamento-recorrente-recessivo-ldpi.png">
+      <g
+         id="g3951-8-6-4-9-8-6-6-4-8-72-4-0-7">
+        <g
+           id="g3725-6-5-7-4-8-6-7-9-9-5-72-3-4-9">
+          <path
+             inkscape:connector-curvature="0"
+             style="fill:#4caf50"
+             d="M 188.864,67.349 C 147.819,26.325 67.499,21.568 10.667,21.568 4.776,21.568 0,26.344 0,32.235 c 0,56.853 4.757,137.173 45.781,178.219 19.261,17.154 44.438,26.143 70.208,25.067 26.571,1.047 52.57,-7.896 72.875,-25.067 30.571,-30.593 36.181,-106.923 0,-143.105 z"
+             id="path3721-7-7-5-20-0-3-5-3-2-61-26-0-0-3" />
+          <path
+             inkscape:connector-curvature="0"
+             style="fill:#4caf50"
+             d="m 459.136,63.765 c -56.853,0 -137.173,4.757 -178.219,45.781 -36.267,36.267 -30.571,112.491 0,143.083 20.311,17.174 46.318,26.117 72.896,25.067 25.769,1.074 50.946,-7.915 70.208,-25.067 41.045,-41.045 45.781,-121.365 45.781,-178.219 -0.011,-5.882 -4.783,-10.645 -10.666,-10.645 z"
+             id="path3723-5-4-3-0-3-88-3-7-0-15-10-3-9-9" />
+        </g>
+        <path
+           inkscape:connector-curvature="0"
+           style="fill:#388e3c"
+           d="m 224,448.235 c -5.891,0 -10.667,-4.776 -10.667,-10.667 0,-226.24 -82.965,-283.008 -114.197,-304.363 -3.767,-2.405 -7.334,-5.109 -10.667,-8.085 -4.093,-4.237 -3.975,-10.99 0.262,-15.083 4.134,-3.993 10.687,-3.993 14.821,0 2.409,2.037 4.961,3.898 7.637,5.568 27.733,18.965 93.056,63.659 115.648,210.261 17.459,-76.645 69.213,-140.995 140.331,-174.485 5.446,-2.562 11.946,-0.51 14.933,4.715 2.698,4.755 1.032,10.796 -3.723,13.495 -0.178,0.101 -0.36,0.197 -0.544,0.287 l -1.728,0.811 c -116.949,54.976 -141.504,175.467 -141.504,266.88 0.001,5.865 -4.736,10.63 -10.602,10.666 z"
+           id="path3727-3-1-5-00-1-6-5-4-6-9-61-0-1-2" />
+      </g>
+      <g
+         id="g3729-5-8-6-81-4-68-6-5-8-8-5-9-9-8" />
+      <g
+         id="g3731-6-5-2-71-8-8-2-2-9-4-94-2-6-3" />
+      <g
+         id="g3733-2-97-9-9-9-2-9-5-2-8-9-5-2-0" />
+      <g
+         id="g3735-9-53-1-9-0-1-1-4-6-1-09-4-5-1" />
+      <g
+         id="g3737-1-8-2-09-5-18-2-7-6-0-17-0-4-7" />
+      <g
+         id="g3739-2-8-7-34-1-3-70-4-4-3-7-59-4-8" />
+      <g
+         id="g3741-7-3-0-731-3-86-9-4-9-04-11-4-9-9" />
+      <g
+         id="g3743-0-1-9-7-0-0-3-3-5-4-5-6-9-1" />
+      <g
+         id="g3745-9-8-3-82-1-8-6-07-0-4-9-9-3-5" />
+      <g
+         id="g3747-3-9-6-5-9-07-0-8-4-4-77-2-6-4" />
+      <g
+         id="g3749-6-6-0-3-9-36-6-6-8-76-67-2-0-9" />
+      <g
+         id="g3751-0-4-6-12-2-5-2-8-7-3-3-4-5-2" />
+      <g
+         id="g3753-6-3-2-12-0-5-6-8-1-17-6-7-0-5" />
+      <g
+         id="g3755-2-3-6-92-0-6-1-4-7-59-563-7-2-7" />
+      <g
+         id="g3757-6-3-1-64-7-93-8-3-2-6-94-5-9-4" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.87637854px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.10035094"
+       x="114.58049"
+       y="210.78403"
+       id="text44221-7-8-48-4-9"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-retrocruzamento/recorrente-recessivo/retrocruzamento-recorrente-recessivo-ldpi.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120"><tspan
+         sodipodi:role="line"
+         id="tspan44219-5-1-1-3-9"
+         x="114.58049"
+         y="210.78403"
+         style="font-weight:bold;stroke-width:0.10035094">Recorrente</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.87637854px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.10035094"
+       x="121.7609"
+       y="213.03621"
+       id="text44221-7-9-2-2-2-5-4"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-retrocruzamento/recorrente-recessivo/retrocruzamento-recorrente-recessivo-ldpi.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120"><tspan
+         sodipodi:role="line"
+         id="tspan44219-5-2-8-9-8-1-5"
+         x="121.7609"
+         y="213.03621"
+         style="font-weight:bold;stroke-width:0.10035094">aa</tspan></text>
+    <g
+       transform="matrix(0.8153514,0,0,0.8153514,81.690477,140.08719)"
+       id="g4522-7-8-4-3"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-retrocruzamento/recorrente-recessivo/retrocruzamento-recorrente-recessivo-ldpi.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120">
+      <g
+         transform="matrix(0.02809694,0,0,0.02809694,15.230281,99.911612)"
+         id="g3785-3-7-3-9-0-9-3-5-1-3-1-8-6-5"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96">
+        <g
+           id="g3951-8-6-4-9-8-6-6-4-8-72-5-2-7">
+          <g
+             id="g3725-6-5-7-4-8-6-7-9-9-5-72-0-6-0">
+            <path
+               id="path3721-7-7-5-20-0-3-5-3-2-61-26-9-7-8"
+               d="M 188.864,67.349 C 147.819,26.325 67.499,21.568 10.667,21.568 4.776,21.568 0,26.344 0,32.235 c 0,56.853 4.757,137.173 45.781,178.219 19.261,17.154 44.438,26.143 70.208,25.067 26.571,1.047 52.57,-7.896 72.875,-25.067 30.571,-30.593 36.181,-106.923 0,-143.105 z"
+               style="fill:#4caf50"
+               inkscape:connector-curvature="0" />
+            <path
+               id="path3723-5-4-3-0-3-88-3-7-0-15-10-6-5-1"
+               d="m 459.136,63.765 c -56.853,0 -137.173,4.757 -178.219,45.781 -36.267,36.267 -30.571,112.491 0,143.083 20.311,17.174 46.318,26.117 72.896,25.067 25.769,1.074 50.946,-7.915 70.208,-25.067 41.045,-41.045 45.781,-121.365 45.781,-178.219 -0.011,-5.882 -4.783,-10.645 -10.666,-10.645 z"
+               style="fill:#4caf50"
+               inkscape:connector-curvature="0" />
+          </g>
+          <path
+             id="path3727-3-1-5-00-1-6-5-4-6-9-61-3-6-9"
+             d="m 224,448.235 c -5.891,0 -10.667,-4.776 -10.667,-10.667 0,-226.24 -82.965,-283.008 -114.197,-304.363 -3.767,-2.405 -7.334,-5.109 -10.667,-8.085 -4.093,-4.237 -3.975,-10.99 0.262,-15.083 4.134,-3.993 10.687,-3.993 14.821,0 2.409,2.037 4.961,3.898 7.637,5.568 27.733,18.965 93.056,63.659 115.648,210.261 17.459,-76.645 69.213,-140.995 140.331,-174.485 5.446,-2.562 11.946,-0.51 14.933,4.715 2.698,4.755 1.032,10.796 -3.723,13.495 -0.178,0.101 -0.36,0.197 -0.544,0.287 l -1.728,0.811 c -116.949,54.976 -141.504,175.467 -141.504,266.88 0.001,5.865 -4.736,10.63 -10.602,10.666 z"
+             style="fill:#388e3c"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g3729-5-8-6-81-4-68-6-5-8-8-5-8-9-9" />
+        <g
+           id="g3731-6-5-2-71-8-8-2-2-9-4-94-5-8-7" />
+        <g
+           id="g3733-2-97-9-9-9-2-9-5-2-8-9-6-7-8" />
+        <g
+           id="g3735-9-53-1-9-0-1-1-4-6-1-09-1-2-2" />
+        <g
+           id="g3737-1-8-2-09-5-18-2-7-6-0-17-1-8-5" />
+        <g
+           id="g3739-2-8-7-34-1-3-70-4-4-3-7-5-2-3" />
+        <g
+           id="g3741-7-3-0-731-3-86-9-4-9-04-11-9-9-4" />
+        <g
+           id="g3743-0-1-9-7-0-0-3-3-5-4-5-8-9-9" />
+        <g
+           id="g3745-9-8-3-82-1-8-6-07-0-4-9-4-6-0" />
+        <g
+           id="g3747-3-9-6-5-9-07-0-8-4-4-77-8-0-2" />
+        <g
+           id="g3749-6-6-0-3-9-36-6-6-8-76-67-1-2-0" />
+        <g
+           id="g3751-0-4-6-12-2-5-2-8-7-3-3-0-7-1" />
+        <g
+           id="g3753-6-3-2-12-0-5-6-8-1-17-6-3-6-9" />
+        <g
+           id="g3755-2-3-6-92-0-6-1-4-7-59-563-0-1-6" />
+        <g
+           id="g3757-6-3-1-64-7-93-8-3-2-6-94-4-3-2" />
+      </g>
+      <text
+         inkscape:export-ydpi="120"
+         inkscape:export-xdpi="120"
+         inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-ssd/metodo-ssd-ldpi.png"
+         id="text44221-7-8-4-2-1"
+         y="115.29267"
+         x="9.8353195"
+         style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.12307692"
+         xml:space="preserve"><tspan
+           style="font-weight:bold;stroke-width:0.12307692"
+           y="115.29267"
+           x="9.8353195"
+           id="tspan44219-5-1-4-1-2"
+           sodipodi:role="line">Homozigoto</tspan></text>
+      <text
+         inkscape:export-ydpi="120"
+         inkscape:export-xdpi="120"
+         inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-ssd/metodo-ssd-ldpi.png"
+         id="text44221-7-9-2-2-4-5-0"
+         y="118.0549"
+         x="19.51087"
+         style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.12307692"
+         xml:space="preserve"><tspan
+           style="font-weight:bold;stroke-width:0.12307692"
+           y="118.0549"
+           x="19.51087"
+           id="tspan44219-5-2-8-9-7-9-7"
+           sodipodi:role="line">aa</tspan></text>
+    </g>
+    <g
+       style="fill:#ff0000;stroke-width:21.26728058;stroke-miterlimit:11;stroke-dasharray:none"
+       transform="matrix(0.01533532,0,0,0.01533532,90.532298,233.14801)"
+       id="g4608-8-1-1"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-retrocruzamento/recorrente-recessivo/retrocruzamento-recorrente-recessivo-ldpi.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120">
+      <g
+         style="fill:#ff0000;stroke-width:21.26728058;stroke-miterlimit:11;stroke-dasharray:none"
+         id="g4606-8-4-1">
+        <polygon
+           style="fill:#ff0000;stroke-width:21.26728058;stroke-miterlimit:11;stroke-dasharray:none"
+           points="376.683,391.765 391.765,376.672 271.083,256 391.765,135.328 376.683,120.235 256,240.917 135.317,120.235 120.235,135.328 240.917,256 120.235,376.672 135.317,391.765 256,271.083 "
+           id="polygon4604-8-9-9" />
+      </g>
+    </g>
+    <g
+       transform="matrix(0.8153514,0,0,0.8153514,103.52035,140.49908)"
+       id="g4522-1-6-1-0"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-retrocruzamento/recorrente-recessivo/retrocruzamento-recorrente-recessivo-ldpi.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120">
+      <g
+         transform="matrix(0.02809694,0,0,0.02809694,15.230281,99.911612)"
+         id="g3785-3-7-3-9-0-9-3-5-1-3-2-3-0-5"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96">
+        <g
+           id="g3951-8-6-4-9-8-6-6-4-8-9-1-7-6">
+          <g
+             id="g3725-6-5-7-4-8-6-7-9-9-5-3-7-5-7">
+            <path
+               id="path3721-7-7-5-20-0-3-5-3-2-61-1-5-8-7"
+               d="M 188.864,67.349 C 147.819,26.325 67.499,21.568 10.667,21.568 4.776,21.568 0,26.344 0,32.235 c 0,56.853 4.757,137.173 45.781,178.219 19.261,17.154 44.438,26.143 70.208,25.067 26.571,1.047 52.57,-7.896 72.875,-25.067 30.571,-30.593 36.181,-106.923 0,-143.105 z"
+               style="fill:#4caf50"
+               inkscape:connector-curvature="0" />
+            <path
+               id="path3723-5-4-3-0-3-88-3-7-0-15-9-9-7-4"
+               d="m 459.136,63.765 c -56.853,0 -137.173,4.757 -178.219,45.781 -36.267,36.267 -30.571,112.491 0,143.083 20.311,17.174 46.318,26.117 72.896,25.067 25.769,1.074 50.946,-7.915 70.208,-25.067 41.045,-41.045 45.781,-121.365 45.781,-178.219 -0.011,-5.882 -4.783,-10.645 -10.666,-10.645 z"
+               style="fill:#d35f5f;fill-opacity:1"
+               inkscape:connector-curvature="0" />
+          </g>
+          <path
+             id="path3727-3-1-5-00-1-6-5-4-6-9-47-6-0-0"
+             d="m 224,448.235 c -5.891,0 -10.667,-4.776 -10.667,-10.667 0,-226.24 -82.965,-283.008 -114.197,-304.363 -3.767,-2.405 -7.334,-5.109 -10.667,-8.085 -4.093,-4.237 -3.975,-10.99 0.262,-15.083 4.134,-3.993 10.687,-3.993 14.821,0 2.409,2.037 4.961,3.898 7.637,5.568 27.733,18.965 93.056,63.659 115.648,210.261 17.459,-76.645 69.213,-140.995 140.331,-174.485 5.446,-2.562 11.946,-0.51 14.933,4.715 2.698,4.755 1.032,10.796 -3.723,13.495 -0.178,0.101 -0.36,0.197 -0.544,0.287 l -1.728,0.811 c -116.949,54.976 -141.504,175.467 -141.504,266.88 0.001,5.865 -4.736,10.63 -10.602,10.666 z"
+             style="fill:#388e3c"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g3729-5-8-6-81-4-68-6-5-8-8-8-2-4-6" />
+        <g
+           id="g3731-6-5-2-71-8-8-2-2-9-4-4-1-8-4" />
+        <g
+           id="g3733-2-97-9-9-9-2-9-5-2-8-50-7-0-7" />
+        <g
+           id="g3735-9-53-1-9-0-1-1-4-6-1-3-8-4-4" />
+        <g
+           id="g3737-1-8-2-09-5-18-2-7-6-0-6-5-2-8" />
+        <g
+           id="g3739-2-8-7-34-1-3-70-4-4-3-1-7-9-5" />
+        <g
+           id="g3741-7-3-0-731-3-86-9-4-9-04-06-4-6-8" />
+        <g
+           id="g3743-0-1-9-7-0-0-3-3-5-4-32-1-1-2" />
+        <g
+           id="g3745-9-8-3-82-1-8-6-07-0-4-0-8-0-6" />
+        <g
+           id="g3747-3-9-6-5-9-07-0-8-4-4-61-5-4-0" />
+        <g
+           id="g3749-6-6-0-3-9-36-6-6-8-76-55-9-2-66" />
+        <g
+           id="g3751-0-4-6-12-2-5-2-8-7-3-4-7-2-4" />
+        <g
+           id="g3753-6-3-2-12-0-5-6-8-1-17-76-5-2-6" />
+        <g
+           id="g3755-2-3-6-92-0-6-1-4-7-59-56-3-0-2" />
+        <g
+           id="g3757-6-3-1-64-7-93-8-3-2-6-9-8-5-8" />
+      </g>
+      <text
+         inkscape:export-ydpi="120"
+         inkscape:export-xdpi="120"
+         inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-ssd/metodo-ssd-ldpi.png"
+         id="text44221-7-3-8-5-9"
+         y="115.29267"
+         x="8.7811203"
+         style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.12307692"
+         xml:space="preserve"><tspan
+           style="font-weight:bold;stroke-width:0.12307692"
+           y="115.29267"
+           x="8.7811203"
+           id="tspan44219-5-7-3-2-6"
+           sodipodi:role="line">Heterozigoto</tspan></text>
+      <text
+         inkscape:export-ydpi="120"
+         inkscape:export-xdpi="120"
+         inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-ssd/metodo-ssd-ldpi.png"
+         id="text44221-7-9-2-4-1-9-0"
+         y="118.0549"
+         x="19.51087"
+         style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.12307692"
+         xml:space="preserve"><tspan
+           style="font-weight:bold;stroke-width:0.12307692"
+           y="118.0549"
+           x="19.51087"
+           id="tspan44219-5-2-8-5-8-0-7"
+           sodipodi:role="line">Aa</tspan></text>
+    </g>
+    <g
+       style="fill:#ff0000;stroke-width:21.26728058;stroke-miterlimit:11;stroke-dasharray:none"
+       transform="matrix(0.01533532,0,0,0.01533532,92.34367,259.56509)"
+       id="g4608-8-1-1-3"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-retrocruzamento/recorrente-recessivo/retrocruzamento-recorrente-recessivo-ldpi.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120">
+      <g
+         style="fill:#ff0000;stroke-width:21.26728058;stroke-miterlimit:11;stroke-dasharray:none"
+         id="g4606-8-4-1-7">
+        <polygon
+           style="fill:#ff0000;stroke-width:21.26728058;stroke-miterlimit:11;stroke-dasharray:none"
+           points="120.235,135.328 240.917,256 120.235,376.672 135.317,391.765 256,271.083 376.683,391.765 391.765,376.672 271.083,256 391.765,135.328 376.683,120.235 256,240.917 135.317,120.235 "
+           id="polygon4604-8-9-9-6" />
+      </g>
+    </g>
+    <g
+       id="g8632-4-5"
+       transform="matrix(0.8153514,0,0,0.8153514,44.988471,62.874324)"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-retrocruzamento/recorrente-recessivo/retrocruzamento-recorrente-recessivo-ldpi.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120">
+      <path
+         inkscape:export-ydpi="120"
+         inkscape:export-xdpi="120"
+         inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-ssd/metodo-ssd-ldpi.png"
+         inkscape:connector-curvature="0"
+         id="path23965-3-8-0-6-9"
+         d="m 59.512241,163.79005 -4.63727,-5.56379"
+         style="fill:#4cafe5;fill-opacity:1;stroke:#4cafe5;stroke-width:0.48334074;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:11;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Mstart-5-5-3-7-6)" />
+      <path
+         inkscape:export-ydpi="120"
+         inkscape:export-xdpi="120"
+         inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-ssd/metodo-ssd-ldpi.png"
+         inkscape:connector-curvature="0"
+         id="path23965-3-8-0-4-9-7"
+         d="m 43.68346,164.11113 4.876072,-5.85031"
+         style="fill:#4cafe5;fill-opacity:1;stroke:#4cafe5;stroke-width:0.50823092;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:11;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Mstart-5-5-3-8-3-9)" />
+    </g>
+    <g
+       id="g8632-4-8"
+       transform="matrix(0.8153514,0,0,0.8153514,68.674606,86.91116)"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-retrocruzamento/recorrente-recessivo/retrocruzamento-recorrente-recessivo-ldpi.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120">
+      <path
+         inkscape:export-ydpi="120"
+         inkscape:export-xdpi="120"
+         inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-ssd/metodo-ssd-ldpi.png"
+         inkscape:connector-curvature="0"
+         id="path23965-3-8-0-6-3"
+         d="m 59.512241,163.79005 -4.63727,-5.56379"
+         style="fill:#4cafe5;fill-opacity:1;stroke:#4cafe5;stroke-width:0.48334074;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:11;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Mstart-5-5-3-7-8)" />
+      <path
+         inkscape:export-ydpi="120"
+         inkscape:export-xdpi="120"
+         inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-ssd/metodo-ssd-ldpi.png"
+         inkscape:connector-curvature="0"
+         id="path23965-3-8-0-4-9-79"
+         d="m 43.68346,164.11113 4.876072,-5.85031"
+         style="fill:#4cafe5;fill-opacity:1;stroke:#4cafe5;stroke-width:0.50823092;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:11;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Mstart-5-5-3-8-3-3)" />
+    </g>
+    <text
+       inkscape:export-ydpi="120"
+       inkscape:export-xdpi="120"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-retrocruzamento/recorrente-recessivo/retrocruzamento-recorrente-recessivo-ldpi.png"
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.60220671px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.10035094"
+       x="7.1208687"
+       y="129.17477"
+       id="text44221-2-3-4-5"><tspan
+         sodipodi:role="line"
+         id="tspan44219-1-6-9-5"
+         x="7.1208687"
+         y="129.17477"
+         style="font-weight:bold;stroke-width:0.10035094">F1</tspan></text>
+    <text
+       inkscape:export-ydpi="120"
+       inkscape:export-xdpi="120"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-retrocruzamento/recorrente-recessivo/retrocruzamento-recorrente-recessivo-ldpi.png"
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.60220671px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.10035094"
+       x="5.2332449"
+       y="157.16638"
+       id="text44221-2-3-4-5-4"><tspan
+         sodipodi:role="line"
+         id="tspan44219-1-6-9-5-9"
+         x="5.2332449"
+         y="157.16638"
+         style="font-weight:bold;stroke-width:0.10035094">RC1</tspan></text>
+    <text
+       inkscape:export-ydpi="120"
+       inkscape:export-xdpi="120"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-retrocruzamento/recorrente-recessivo/retrocruzamento-recorrente-recessivo-ldpi.png"
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.60220671px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.10035094"
+       x="5.2748175"
+       y="183.80594"
+       id="text44221-2-3-4-5-4-8"><tspan
+         sodipodi:role="line"
+         id="tspan44219-1-6-9-5-9-3"
+         x="5.2748175"
+         y="183.80594"
+         style="font-weight:bold;stroke-width:0.10035094">RC2</tspan></text>
+    <text
+       inkscape:export-ydpi="120"
+       inkscape:export-xdpi="120"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-retrocruzamento/recorrente-recessivo/retrocruzamento-recorrente-recessivo-ldpi.png"
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.60220671px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.10035094"
+       x="5.2579637"
+       y="208.4465"
+       id="text44221-2-3-4-5-4-85"><tspan
+         sodipodi:role="line"
+         id="tspan44219-1-6-9-5-9-2"
+         x="5.2579637"
+         y="208.4465"
+         style="font-weight:bold;stroke-width:0.10035094">RC3</tspan></text>
+    <text
+       inkscape:export-ydpi="120"
+       inkscape:export-xdpi="120"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-retrocruzamento/recorrente-recessivo/retrocruzamento-recorrente-recessivo-ldpi.png"
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.60220671px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.10035094"
+       x="5.1804361"
+       y="232.27538"
+       id="text44221-2-3-4-5-4-85-2"><tspan
+         sodipodi:role="line"
+         id="tspan44219-1-6-9-5-9-2-2"
+         x="5.1804361"
+         y="232.27538"
+         style="font-weight:bold;stroke-width:0.10035094">RC4</tspan></text>
+    <g
+       id="g13380"
+       transform="translate(8.3473492,-0.67087153)"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-retrocruzamento/recorrente-recessivo/retrocruzamento-recorrente-recessivo-ldpi.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120">
+      <g
+         id="g14126">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:2.87637877px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.10035094"
+           x="127.37016"
+           y="241.86757"
+           id="text44221-7-8-48-4-9-4"
+           inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-ssd/metodo-ssd-ldpi.png"
+           inkscape:export-xdpi="120"
+           inkscape:export-ydpi="120"><tspan
+             sodipodi:role="line"
+             id="tspan44219-5-1-1-3-9-6"
+             x="127.37016"
+             y="241.86757"
+             style="font-weight:bold;stroke-width:0.10035094">Autofecundação</tspan></text>
+        <g
+           transform="matrix(0.00585938,0,0,0.00585939,122.97815,239.53049)"
+           id="g4697"
+           inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-ssd/metodo-ssd-ldpi.png"
+           inkscape:export-xdpi="120"
+           inkscape:export-ydpi="120">
+          <g
+             id="g4602">
+            <g
+               id="g4600">
+              <path
+                 id="path4598"
+                 d="M 256,0 C 114.615,0 0,114.615 0,256 0,397.385 114.615,512 256,512 397.385,512 512,397.385 512,256 511.835,114.683 397.317,0.165 256,0 Z m 0,490.667 C 126.397,490.667 21.333,385.603 21.333,256 21.333,126.397 126.397,21.333 256,21.333 385.603,21.333 490.667,126.397 490.667,256 490.52,385.542 385.542,490.52 256,490.667 Z"
+                 inkscape:connector-curvature="0" />
+            </g>
+          </g>
+          <g
+             id="g4608"
+             transform="matrix(1.3771259,0,0,1.3771259,-96.54423,-96.54423)">
+            <g
+               id="g4606">
+              <polygon
+                 id="polygon4604"
+                 points="135.317,120.235 120.235,135.328 240.917,256 120.235,376.672 135.317,391.765 256,271.083 376.683,391.765 391.765,376.672 271.083,256 391.765,135.328 376.683,120.235 256,240.917 " />
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.87637854px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.10035094"
+       x="116.16196"
+       y="263.42584"
+       id="text44221-7-85"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-retrocruzamento/recorrente-recessivo/retrocruzamento-recorrente-recessivo-ldpi.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120"><tspan
+         sodipodi:role="line"
+         id="tspan44219-5-10"
+         x="116.16196"
+         y="265.97076"
+         style="font-weight:bold;stroke-width:0.10035094" /></text>
+    <g
+       id="g13945"
+       transform="translate(-21.551479,-2.0241523)"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-retrocruzamento/recorrente-recessivo/retrocruzamento-recorrente-recessivo-ldpi.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120">
+      <g
+         transform="matrix(0.02290888,0,0,0.02290888,160.38683,251.07996)"
+         id="g3785-3-7-3-9-0-9-3-5-1-3-2-3-0-5-5"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96">
+        <g
+           id="g3951-8-6-4-9-8-6-6-4-8-9-1-7-6-1">
+          <g
+             id="g3725-6-5-7-4-8-6-7-9-9-5-3-7-5-7-7">
+            <path
+               id="path3721-7-7-5-20-0-3-5-3-2-61-1-5-8-7-4"
+               d="M 188.864,67.349 C 147.819,26.325 67.499,21.568 10.667,21.568 4.776,21.568 0,26.344 0,32.235 c 0,56.853 4.757,137.173 45.781,178.219 19.261,17.154 44.438,26.143 70.208,25.067 26.571,1.047 52.57,-7.896 72.875,-25.067 30.571,-30.593 36.181,-106.923 0,-143.105 z"
+               style="fill:#4caf50"
+               inkscape:connector-curvature="0" />
+            <path
+               id="path3723-5-4-3-0-3-88-3-7-0-15-9-9-7-4-1"
+               d="m 459.136,63.765 c -56.853,0 -137.173,4.757 -178.219,45.781 -36.267,36.267 -30.571,112.491 0,143.083 20.311,17.174 46.318,26.117 72.896,25.067 25.769,1.074 50.946,-7.915 70.208,-25.067 41.045,-41.045 45.781,-121.365 45.781,-178.219 -0.011,-5.882 -4.783,-10.645 -10.666,-10.645 z"
+               style="fill:#d35f5f;fill-opacity:1"
+               inkscape:connector-curvature="0" />
+          </g>
+          <path
+             id="path3727-3-1-5-00-1-6-5-4-6-9-47-6-0-0-7"
+             d="m 224,448.235 c -5.891,0 -10.667,-4.776 -10.667,-10.667 0,-226.24 -82.965,-283.008 -114.197,-304.363 -3.767,-2.405 -7.334,-5.109 -10.667,-8.085 -4.093,-4.237 -3.975,-10.99 0.262,-15.083 4.134,-3.993 10.687,-3.993 14.821,0 2.409,2.037 4.961,3.898 7.637,5.568 27.733,18.965 93.056,63.659 115.648,210.261 17.459,-76.645 69.213,-140.995 140.331,-174.485 5.446,-2.562 11.946,-0.51 14.933,4.715 2.698,4.755 1.032,10.796 -3.723,13.495 -0.178,0.101 -0.36,0.197 -0.544,0.287 l -1.728,0.811 c -116.949,54.976 -141.504,175.467 -141.504,266.88 0.001,5.865 -4.736,10.63 -10.602,10.666 z"
+             style="fill:#388e3c"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g3729-5-8-6-81-4-68-6-5-8-8-8-2-4-6-1" />
+        <g
+           id="g3731-6-5-2-71-8-8-2-2-9-4-4-1-8-4-1" />
+        <g
+           id="g3733-2-97-9-9-9-2-9-5-2-8-50-7-0-7-1" />
+        <g
+           id="g3735-9-53-1-9-0-1-1-4-6-1-3-8-4-4-7" />
+        <g
+           id="g3737-1-8-2-09-5-18-2-7-6-0-6-5-2-8-0" />
+        <g
+           id="g3739-2-8-7-34-1-3-70-4-4-3-1-7-9-5-4" />
+        <g
+           id="g3741-7-3-0-731-3-86-9-4-9-04-06-4-6-8-0" />
+        <g
+           id="g3743-0-1-9-7-0-0-3-3-5-4-32-1-1-2-8" />
+        <g
+           id="g3745-9-8-3-82-1-8-6-07-0-4-0-8-0-6-5" />
+        <g
+           id="g3747-3-9-6-5-9-07-0-8-4-4-61-5-4-0-1" />
+        <g
+           id="g3749-6-6-0-3-9-36-6-6-8-76-55-9-2-66-6" />
+        <g
+           id="g3751-0-4-6-12-2-5-2-8-7-3-4-7-2-4-6" />
+        <g
+           id="g3753-6-3-2-12-0-5-6-8-1-17-76-5-2-6-2" />
+        <g
+           id="g3755-2-3-6-92-0-6-1-4-7-59-56-3-0-2-1" />
+        <g
+           id="g3757-6-3-1-64-7-93-8-3-2-6-9-8-5-8-9" />
+      </g>
+      <text
+         inkscape:export-ydpi="120"
+         inkscape:export-xdpi="120"
+         inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-ssd/metodo-ssd-ldpi.png"
+         id="text44221-7-9-2-4-1-9-0-8"
+         y="264.09052"
+         x="160.87915"
+         style="font-style:normal;font-weight:normal;font-size:2.87637854px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.10035094"
+         xml:space="preserve"><tspan
+           style="font-weight:bold;stroke-width:0.10035094"
+           y="264.09052"
+           x="160.87915"
+           id="tspan44219-5-2-8-5-8-0-7-0"
+           sodipodi:role="line">2 (Aa)</tspan></text>
+    </g>
+    <g
+       id="g13895"
+       transform="translate(-22.371469,-2.1432201)"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-retrocruzamento/recorrente-recessivo/retrocruzamento-recorrente-recessivo-ldpi.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120">
+      <g
+         transform="matrix(0.02290888,0,0,0.02290888,119.85219,251.07996)"
+         id="g3785-3-7-3-9-0-9-3-5-1-3-6"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96">
+        <g
+           id="g3951-8-6-4-9-8-6-6-4-8-3">
+          <g
+             id="g3725-6-5-7-4-8-6-7-9-9-5-34">
+            <path
+               id="path3721-7-7-5-20-0-3-5-3-2-61-4"
+               d="M 188.864,67.349 C 147.819,26.325 67.499,21.568 10.667,21.568 4.776,21.568 0,26.344 0,32.235 c 0,56.853 4.757,137.173 45.781,178.219 19.261,17.154 44.438,26.143 70.208,25.067 26.571,1.047 52.57,-7.896 72.875,-25.067 30.571,-30.593 36.181,-106.923 0,-143.105 z"
+               style="fill:#4caf50"
+               inkscape:connector-curvature="0" />
+            <path
+               id="path3723-5-4-3-0-3-88-3-7-0-15-3"
+               d="m 459.136,63.765 c -56.853,0 -137.173,4.757 -178.219,45.781 -36.267,36.267 -30.571,112.491 0,143.083 20.311,17.174 46.318,26.117 72.896,25.067 25.769,1.074 50.946,-7.915 70.208,-25.067 41.045,-41.045 45.781,-121.365 45.781,-178.219 -0.011,-5.882 -4.783,-10.645 -10.666,-10.645 z"
+               style="fill:#4caf50"
+               inkscape:connector-curvature="0" />
+          </g>
+          <path
+             id="path3727-3-1-5-00-1-6-5-4-6-9-9"
+             d="m 224,448.235 c -5.891,0 -10.667,-4.776 -10.667,-10.667 0,-226.24 -82.965,-283.008 -114.197,-304.363 -3.767,-2.405 -7.334,-5.109 -10.667,-8.085 -4.093,-4.237 -3.975,-10.99 0.262,-15.083 4.134,-3.993 10.687,-3.993 14.821,0 2.409,2.037 4.961,3.898 7.637,5.568 27.733,18.965 93.056,63.659 115.648,210.261 17.459,-76.645 69.213,-140.995 140.331,-174.485 5.446,-2.562 11.946,-0.51 14.933,4.715 2.698,4.755 1.032,10.796 -3.723,13.495 -0.178,0.101 -0.36,0.197 -0.544,0.287 l -1.728,0.811 c -116.949,54.976 -141.504,175.467 -141.504,266.88 0.001,5.865 -4.736,10.63 -10.602,10.666 z"
+             style="fill:#388e3c"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g3729-5-8-6-81-4-68-6-5-8-8-7" />
+        <g
+           id="g3731-6-5-2-71-8-8-2-2-9-4-2" />
+        <g
+           id="g3733-2-97-9-9-9-2-9-5-2-8-5" />
+        <g
+           id="g3735-9-53-1-9-0-1-1-4-6-1-8" />
+        <g
+           id="g3737-1-8-2-09-5-18-2-7-6-0-90" />
+        <g
+           id="g3739-2-8-7-34-1-3-70-4-4-3-2" />
+        <g
+           id="g3741-7-3-0-731-3-86-9-4-9-04-4" />
+        <g
+           id="g3743-0-1-9-7-0-0-3-3-5-4-7" />
+        <g
+           id="g3745-9-8-3-82-1-8-6-07-0-4-6" />
+        <g
+           id="g3747-3-9-6-5-9-07-0-8-4-4-5" />
+        <g
+           id="g3749-6-6-0-3-9-36-6-6-8-76-7" />
+        <g
+           id="g3751-0-4-6-12-2-5-2-8-7-3-1" />
+        <g
+           id="g3753-6-3-2-12-0-5-6-8-1-17-3" />
+        <g
+           id="g3755-2-3-6-92-0-6-1-4-7-59-3" />
+        <g
+           id="g3757-6-3-1-64-7-93-8-3-2-6-3" />
+      </g>
+      <text
+         inkscape:export-ydpi="120"
+         inkscape:export-xdpi="120"
+         inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-ssd/metodo-ssd-ldpi.png"
+         id="text44221-7-9-2-8"
+         y="264.09052"
+         x="120.4365"
+         style="font-style:normal;font-weight:normal;font-size:2.87637854px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.10035094"
+         xml:space="preserve"><tspan
+           style="font-weight:bold;stroke-width:0.10035094"
+           y="264.09052"
+           x="120.4365"
+           id="tspan44219-5-2-8-76"
+           sodipodi:role="line">1 (aa)</tspan></text>
+    </g>
+    <g
+       id="g13920"
+       transform="translate(-26.185332,-2.6194913)"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-retrocruzamento/recorrente-recessivo/retrocruzamento-recorrente-recessivo-ldpi.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120">
+      <g
+         transform="matrix(0.02290888,0,0,0.02290888,142.49128,251.07996)"
+         id="g3785-3-7-3-9-0-9-3-5-1-3-36-5"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96">
+        <g
+           id="g3951-8-6-4-9-8-6-6-4-8-7-0">
+          <g
+             id="g3725-6-5-7-4-8-6-7-9-9-5-5-8">
+            <path
+               id="path3721-7-7-5-20-0-3-5-3-2-61-3-0"
+               d="M 188.864,67.349 C 147.819,26.325 67.499,21.568 10.667,21.568 4.776,21.568 0,26.344 0,32.235 c 0,56.853 4.757,137.173 45.781,178.219 19.261,17.154 44.438,26.143 70.208,25.067 26.571,1.047 52.57,-7.896 72.875,-25.067 30.571,-30.593 36.181,-106.923 0,-143.105 z"
+               style="fill:#d35f5f"
+               inkscape:connector-curvature="0" />
+            <path
+               id="path3723-5-4-3-0-3-88-3-7-0-15-5-4"
+               d="m 459.136,63.765 c -56.853,0 -137.173,4.757 -178.219,45.781 -36.267,36.267 -30.571,112.491 0,143.083 20.311,17.174 46.318,26.117 72.896,25.067 25.769,1.074 50.946,-7.915 70.208,-25.067 41.045,-41.045 45.781,-121.365 45.781,-178.219 -0.011,-5.882 -4.783,-10.645 -10.666,-10.645 z"
+               style="fill:#d35f5f;fill-opacity:1"
+               inkscape:connector-curvature="0" />
+          </g>
+          <path
+             id="path3727-3-1-5-00-1-6-5-4-6-9-6-1"
+             d="m 224,448.235 c -5.891,0 -10.667,-4.776 -10.667,-10.667 0,-226.24 -82.965,-283.008 -114.197,-304.363 -3.767,-2.405 -7.334,-5.109 -10.667,-8.085 -4.093,-4.237 -3.975,-10.99 0.262,-15.083 4.134,-3.993 10.687,-3.993 14.821,0 2.409,2.037 4.961,3.898 7.637,5.568 27.733,18.965 93.056,63.659 115.648,210.261 17.459,-76.645 69.213,-140.995 140.331,-174.485 5.446,-2.562 11.946,-0.51 14.933,4.715 2.698,4.755 1.032,10.796 -3.723,13.495 -0.178,0.101 -0.36,0.197 -0.544,0.287 l -1.728,0.811 c -116.949,54.976 -141.504,175.467 -141.504,266.88 0.001,5.865 -4.736,10.63 -10.602,10.666 z"
+             style="fill:#388e3c"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g3729-5-8-6-81-4-68-6-5-8-8-2-1" />
+        <g
+           id="g3731-6-5-2-71-8-8-2-2-9-4-9-3" />
+        <g
+           id="g3733-2-97-9-9-9-2-9-5-2-8-12-5" />
+        <g
+           id="g3735-9-53-1-9-0-1-1-4-6-1-70-9" />
+        <g
+           id="g3737-1-8-2-09-5-18-2-7-6-0-9-3" />
+        <g
+           id="g3739-2-8-7-34-1-3-70-4-4-3-3-4" />
+        <g
+           id="g3741-7-3-0-731-3-86-9-4-9-04-6-1" />
+        <g
+           id="g3743-0-1-9-7-0-0-3-3-5-4-06-5" />
+        <g
+           id="g3745-9-8-3-82-1-8-6-07-0-4-2-0" />
+        <g
+           id="g3747-3-9-6-5-9-07-0-8-4-4-6-8" />
+        <g
+           id="g3749-6-6-0-3-9-36-6-6-8-76-1-3" />
+        <g
+           id="g3751-0-4-6-12-2-5-2-8-7-3-8-5" />
+        <g
+           id="g3753-6-3-2-12-0-5-6-8-1-17-7-6" />
+        <g
+           id="g3755-2-3-6-92-0-6-1-4-7-59-92-5" />
+        <g
+           id="g3757-6-3-1-64-7-93-8-3-2-6-0-9" />
+      </g>
+      <text
+         inkscape:export-ydpi="120"
+         inkscape:export-xdpi="120"
+         inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-ssd/metodo-ssd-ldpi.png"
+         id="text44221-7-9-2-9-7"
+         y="264.09052"
+         x="142.79469"
+         style="font-style:normal;font-weight:normal;font-size:2.87637854px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.10035094"
+         xml:space="preserve"><tspan
+           style="font-weight:bold;stroke-width:0.10035094"
+           y="264.09052"
+           x="142.79469"
+           id="tspan44219-5-2-8-7-6"
+           sodipodi:role="line">1 (AA)</tspan></text>
+    </g>
+    <g
+       transform="matrix(0.00585938,0,0,0.00585931,122.22945,263.40399)"
+       id="g4697-6"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-retrocruzamento/recorrente-recessivo/retrocruzamento-recorrente-recessivo-ldpi.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120">
+      <g
+         id="g4602-5">
+        <g
+           id="g4600-0">
+          <path
+             id="path4598-8"
+             d="M 256,0 C 114.615,0 0,114.615 0,256 0,397.385 114.615,512 256,512 397.385,512 512,397.385 512,256 511.835,114.683 397.317,0.165 256,0 Z m 0,490.667 C 126.397,490.667 21.333,385.603 21.333,256 21.333,126.397 126.397,21.333 256,21.333 385.603,21.333 490.667,126.397 490.667,256 490.52,385.542 385.542,490.52 256,490.667 Z"
+             inkscape:connector-curvature="0" />
+        </g>
+      </g>
+      <g
+         id="g4608-1"
+         transform="matrix(1.3771259,0,0,1.3771259,-96.54423,-96.54423)">
+        <g
+           id="g4606-2">
+          <polygon
+             id="polygon4604-2"
+             points="391.765,135.328 376.683,120.235 256,240.917 135.317,120.235 120.235,135.328 240.917,256 120.235,376.672 135.317,391.765 256,271.083 376.683,391.765 391.765,376.672 271.083,256 " />
+        </g>
+      </g>
+    </g>
+    <path
+       style="fill:#4cafe5;fill-opacity:1;stroke:#4cafe5;stroke-width:0.39409253;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:11;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Mstart-5-5-7-6)"
+       d="M 121.57561,269.30666 V 263.4011"
+       id="path23965-3-8-3-1"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-retrocruzamento/recorrente-recessivo/retrocruzamento-recorrente-recessivo-ldpi.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
+    <path
+       style="fill:#4cafe5;fill-opacity:1;stroke:#4cafe5;stroke-width:0.39409253;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:11;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Mstart-5-5-7-0)"
+       d="M 143.85042,269.30666 V 263.4011"
+       id="path23965-3-8-3-2"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-retrocruzamento/recorrente-recessivo/retrocruzamento-recorrente-recessivo-ldpi.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
+    <g
+       transform="matrix(0.00585938,0,0,0.00585931,144.56379,263.40399)"
+       id="g4697-6-7"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-retrocruzamento/recorrente-recessivo/retrocruzamento-recorrente-recessivo-ldpi.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120">
+      <g
+         id="g4602-5-4">
+        <g
+           id="g4600-0-0">
+          <path
+             id="path4598-8-3"
+             d="M 256,0 C 114.615,0 0,114.615 0,256 0,397.385 114.615,512 256,512 397.385,512 512,397.385 512,256 511.835,114.683 397.317,0.165 256,0 Z m 0,490.667 C 126.397,490.667 21.333,385.603 21.333,256 21.333,126.397 126.397,21.333 256,21.333 385.603,21.333 490.667,126.397 490.667,256 490.52,385.542 385.542,490.52 256,490.667 Z"
+             inkscape:connector-curvature="0" />
+        </g>
+      </g>
+      <g
+         id="g4608-1-2"
+         transform="matrix(1.3771259,0,0,1.3771259,-96.54423,-96.54423)">
+        <g
+           id="g4606-2-8">
+          <polygon
+             id="polygon4604-2-0"
+             points="256,240.917 135.317,120.235 120.235,135.328 240.917,256 120.235,376.672 135.317,391.765 256,271.083 376.683,391.765 391.765,376.672 271.083,256 391.765,135.328 376.683,120.235 " />
+        </g>
+      </g>
+    </g>
+    <g
+       id="g13380-3"
+       transform="translate(-13.931711,33.742386)"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-retrocruzamento/recorrente-recessivo/retrocruzamento-recorrente-recessivo-ldpi.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120">
+      <text
+         inkscape:export-ydpi="120"
+         inkscape:export-xdpi="120"
+         inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-ssd/metodo-ssd-ldpi.png"
+         id="text44221-7-8-48-4-9-4-0"
+         y="239.75093"
+         x="157.7477"
+         style="font-style:normal;font-weight:normal;font-size:2.87637877px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.10035094"
+         xml:space="preserve"><tspan
+           style="font-weight:bold;text-align:center;text-anchor:middle;stroke-width:0.10035094"
+           y="239.75093"
+           x="158.2477"
+           id="tspan44219-5-1-1-3-9-6-0"
+           sodipodi:role="line">Fileiras </tspan><tspan
+           style="font-weight:bold;text-align:center;text-anchor:middle;stroke-width:0.10035094"
+           y="243.34641"
+           x="157.7477"
+           sodipodi:role="line"
+           id="tspan15574">Segregantes</tspan></text>
+    </g>
+    <g
+       id="g16051"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-retrocruzamento/recorrente-recessivo/retrocruzamento-recorrente-recessivo-ldpi.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120">
+      <path
+         inkscape:export-ydpi="120"
+         inkscape:export-xdpi="120"
+         inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-ssd/metodo-ssd-ldpi.png"
+         inkscape:connector-curvature="0"
+         id="path23965-3-8-3"
+         d="m 121.68727,244.97265 v -5.90556"
+         style="fill:#4cafe5;fill-opacity:1;stroke:#4cafe5;stroke-width:0.39409253;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:11;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Mstart-5-5-7)" />
+      <g
+         transform="matrix(0.8153514,0,0,0.8153514,79.590721,110.05709)"
+         id="g8632-4-8-8">
+        <path
+           style="fill:#4cafe5;fill-opacity:1;stroke:#4cafe5;stroke-width:0.48334074;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:11;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Mstart-5-5-3-7-8-2)"
+           d="m 59.512241,163.79005 -4.63727,-5.56379"
+           id="path23965-3-8-0-6-3-6"
+           inkscape:connector-curvature="0"
+           inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-ssd/metodo-ssd-ldpi.png"
+           inkscape:export-xdpi="120"
+           inkscape:export-ydpi="120" />
+        <path
+           style="fill:#4cafe5;fill-opacity:1;stroke:#4cafe5;stroke-width:0.50823092;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:11;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Mstart-5-5-3-8-3-3-4)"
+           d="m 43.68346,164.11113 4.876072,-5.85031"
+           id="path23965-3-8-0-4-9-79-0"
+           inkscape:connector-curvature="0"
+           inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-ssd/metodo-ssd-ldpi.png"
+           inkscape:export-xdpi="120"
+           inkscape:export-ydpi="120" />
+      </g>
+    </g>
+    <g
+       id="g13380-3-8"
+       transform="translate(-36.372773,33.260593)"
+       inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-retrocruzamento/recorrente-recessivo/retrocruzamento-recorrente-recessivo-ldpi.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120">
+      <text
+         inkscape:export-ydpi="120"
+         inkscape:export-xdpi="120"
+         inkscape:export-filename="/home/diego/dev/repo/git/genetica-quantitativa/material/desenhos/metodos-melhoramento/png/metodo-ssd/metodo-ssd-ldpi.png"
+         id="text44221-7-8-48-4-9-4-0-9"
+         y="240.25871"
+         x="157.7477"
+         style="font-style:normal;font-weight:normal;font-size:2.87637877px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.10035094"
+         xml:space="preserve"><tspan
+           style="font-weight:bold;text-align:center;text-anchor:middle;stroke-width:0.10035094"
+           y="240.25871"
+           x="158.2477"
+           id="tspan44219-5-1-1-3-9-6-0-2"
+           sodipodi:role="line">Fileiras não </tspan><tspan
+           style="font-weight:bold;text-align:center;text-anchor:middle;stroke-width:0.10035094"
+           y="243.85419"
+           x="157.7477"
+           sodipodi:role="line"
+           id="tspan15574-2">Segregantes</tspan></text>
+    </g>
+  </g>
+</svg>
