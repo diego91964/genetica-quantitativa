@@ -3,85 +3,32 @@
 
 ## Métodos de Melhoramento
 
-## Método da População
+[Método da População](material/metodos-melhoramento/metodo-populacao.md)
 
+[Método Genealógico](material/metodos-melhoramento/metodo-genealogico.md)
 
+[Método SSD](material/metodos-melhoramento/metodo-ssd.md)
 
-## Método Genealógico
+[Método SPD](material/metodos-melhoramento/metodo-spd.md)
 
+[Teste de Geração Precoce](material/metodos-melhoramento/teste-geracao-precoce.md)
 
+[Retrocruzamento](material/metodos-melhoramento/retrocruzamento.md)
 
-## Método SSD
+[Melhoramento de Clones](material/metodos-melhoramento/melhoramento-clones.md)
 
+As imagens estão nos seguintes formatos:
 
+* ldpi (low) ~120dpi
 
-## Método SPD
+* mdpi (medium) ~160dpi
 
+* tvdpi (tablet size) ~ 213 dpi
 
+* hdpi (high) ~240dpi
 
-## Teste de Geração Precoce
+* xhdpi (extra-high) ~320dpi
 
+* xxhdpi (extra-extra-high) ~480dpi
 
-
-## Retrocruzamento
-
-#### ldpi (low) ~120dpi
-
-![](material/desenhos/metodos-melhoramento/png/metodo-retrocruzamento/recorrente-recessivo/retrocruzamento-recorrente-recessivo-ldpi.png)
-
-#### mdpi (medium) ~160dpi
-
-![](material/desenhos/metodos-melhoramento/png/metodo-retrocruzamento/recorrente-recessivo/retrocruzamento-recorrente-recessivo-mdpi.png)
-
-
-#### tvdpi (tablet size) ~ 213 dpi
-
-![](material/desenhos/metodos-melhoramento/png/metodo-retrocruzamento/recorrente-recessivo/retrocruzamento-recorrente-recessivo-tvdpi.png)
-
-#### hdpi (high) ~240dpi
-
-![](material/desenhos/metodos-melhoramento/png/metodo-retrocruzamento/recorrente-recessivo/retrocruzamento-recorrente-recessivo-hdpi.png)
-
-#### xhdpi (extra-high) ~320dpi
-
-![](material/desenhos/metodos-melhoramento/png/metodo-retrocruzamento/recorrente-recessivo/retrocruzamento-recorrente-recessivo-xhdpi.png)
-
-#### xxhdpi (extra-extra-high) ~480dpi
-
-![](material/desenhos/metodos-melhoramento/png/metodo-retrocruzamento/recorrente-recessivo/retrocruzamento-recorrente-recessivo-xxhdpi.png)
-
-#### xxxhdpi (extra-extra-extra-high) ~640dpi
-
-![](material/desenhos/metodos-melhoramento/png/metodo-retrocruzamento/recorrente-recessivo/retrocruzamento-recorrente-recessivo-xxxhdpi.png)
-
-
-## Melhoramento de Clones
-
-### ldpi (low) ~120dpi
-
-![](material/desenhos/metodos-melhoramento/png/melhoramento-clones/melhoramento-clones-ldpi.png)
-
-### mdpi (medium) ~160dpi
-
-![](material/desenhos/metodos-melhoramento/png/melhoramento-clones/melhoramento-clones-mdpi.png)
-
-
-### tvdpi (tablet size) ~ 213 dpi
-
-![](material/desenhos/metodos-melhoramento/png/melhoramento-clones/melhoramento-clones-tvdpi.png)
-
-### hdpi (high) ~240dpi
-
-![](material/desenhos/metodos-melhoramento/png/melhoramento-clones/melhoramento-clones-hdpi.png)
-
-### xhdpi (extra-high) ~320dpi
-
-![](material/desenhos/metodos-melhoramento/png/melhoramento-clones/melhoramento-clones-xhdpi.png)
-
-### xxhdpi (extra-extra-high) ~480dpi
-
-![](material/desenhos/metodos-melhoramento/png/melhoramento-clones/melhoramento-clones-xxhdpi.png)
-
-### xxxhdpi (extra-extra-extra-high) ~640dpi
-
-![](material/desenhos/metodos-melhoramento/png/melhoramento-clones/melhoramento-clones-xxxhdpi.png)
+* xxxhdpi (extra-extra-extra-high) ~640dpi
