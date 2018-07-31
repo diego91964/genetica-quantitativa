@@ -1,60 +1,62 @@
 # Método da População
 
-## ldpi (low) ~120dpi
+## Vertical
 
-![](../desenhos/metodos-melhoramento/png/metodo-populacao-vertical/vertical/metodo-populacao-verticalldpi.png)
+### ldpi (low) ~120dpi
 
-## mdpi (medium) ~160dpi
+![](../desenhos/metodos-melhoramento/png/metodo-populacao/vertical/metodo-populacao-verticalldpi.png)
 
-![](../desenhos/metodos-melhoramento/png/metodo-populacao-vertical/vertical/metodo-populacao-verticalmdpi.png)
+### mdpi (medium) ~160dpi
 
-
-## tvdpi (tablet size) ~ 213 dpi
-
-![](../desenhos/metodos-melhoramento/png/metodo-populacao-vertical/vertical/metodo-populacao-verticaltvdpi.png)
-
-## hdpi (high) ~240dpi
-
-![](../desenhos/metodos-melhoramento/png/metodo-populacao-vertical/vertical/metodo-populacao-verticalhdpi.png)
-
-## xhdpi (extra-high) ~320dpi
-
-![](../desenhos/metodos-melhoramento/png/metodo-populacao-vertical/vertical/metodo-populacao-verticalxhdpi.png)
-
-## xxhdpi (extra-extra-high) ~480dpi
-
-![](../desenhos/metodos-melhoramento/png/metodo-populacao-vertical/vertical/metodo-populacao-verticalxxhdpi.png)
-
-## xxxhdpi (extra-extra-extra-high) ~640dpi
-
-![](../desenhos/metodos-melhoramento/png/metodo-populacao-vertical/vertical/metodo-populacao-verticalxxxhdpi.png)
+![](../desenhos/metodos-melhoramento/png/metodo-populacao/vertical/metodo-populacao-verticalmdpi.png)
 
 
-## ldpi (low) ~120dpi
+### tvdpi (tablet size) ~ 213 dpi
 
-![](../desenhos/metodos-melhoramento/png/metodo-populacao-horizontal/horizontal/metodo-populacao-horizontalldpi.png)
+![](../desenhos/metodos-melhoramento/png/metodo-populacao/vertical/metodo-populacao-verticaltvdpi.png)
 
-## mdpi (medium) ~160dpi
+### hdpi (high) ~240dpi
 
-![](../desenhos/metodos-melhoramento/png/metodo-populacao-horizontal/horizontal/metodo-populacao-horizontalmdpi.png)
+![](../desenhos/metodos-melhoramento/png/metodo-populacao/vertical/metodo-populacao-verticalhdpi.png)
+
+### xhdpi (extra-high) ~320dpi
+
+![](../desenhos/metodos-melhoramento/png/metodo-populacao/vertical/metodo-populacao-verticalxhdpi.png)
+
+### xxhdpi (extra-extra-high) ~480dpi
+
+![](../desenhos/metodos-melhoramento/png/metodo-populacao/vertical/metodo-populacao-verticalxxhdpi.png)
+
+### xxxhdpi (extra-extra-extra-high) ~640dpi
+
+![](../desenhos/metodos-melhoramento/png/metodo-populacao/vertical/metodo-populacao-verticalxxxhdpi.png)
 
 
-## tvdpi (tablet size) ~ 213 dpi
+### ldpi (low) ~120dpi
 
-![](../desenhos/metodos-melhoramento/png/metodo-populacao-horizontal/horizontal/metodo-populacao-horizontaltvdpi.png)
+![](../desenhos/metodos-melhoramento/png/metodo-populacao/horizontal/metodo-populacao-horizontalldpi.png)
 
-## hdpi (high) ~240dpi
+### mdpi (medium) ~160dpi
 
-![](../desenhos/metodos-melhoramento/png/metodo-populacao-horizontal/horizontal/metodo-populacao-horizontalhdpi.png)
+![](../desenhos/metodos-melhoramento/png/metodo-populacao/horizontal/metodo-populacao-horizontalmdpi.png)
 
-## xhdpi (extra-high) ~320dpi
 
-![](../desenhos/metodos-melhoramento/png/metodo-populacao-horizontal/horizontal/metodo-populacao-horizontalxhdpi.png)
+### tvdpi (tablet size) ~ 213 dpi
 
-## xxhdpi (extra-extra-high) ~480dpi
+![](../desenhos/metodos-melhoramento/png/metodo-populacao/horizontal/metodo-populacao-horizontaltvdpi.png)
 
-![](../desenhos/metodos-melhoramento/png/metodo-populacao-horizontal/horizontal/metodo-populacao-horizontalxxhdpi.png)
+### hdpi (high) ~240dpi
 
-## xxxhdpi (extra-extra-extra-high) ~640dpi
+![](../desenhos/metodos-melhoramento/png/metodo-populacao/horizontal/metodo-populacao-horizontalhdpi.png)
 
-![](../desenhos/metodos-melhoramento/png/metodo-populacao-horizontal/horizontal/metodo-populacao-horizontalxxxhdpi.png)
+### xhdpi (extra-high) ~320dpi
+
+![](../desenhos/metodos-melhoramento/png/metodo-populacao/horizontal/metodo-populacao-horizontalxhdpi.png)
+
+### xxhdpi (extra-extra-high) ~480dpi
+
+![](../desenhos/metodos-melhoramento/png/metodo-populacao/horizontal/metodo-populacao-horizontalxxhdpi.png)
+
+### xxxhdpi (extra-extra-extra-high) ~640dpi
+
+![](../desenhos/metodos-melhoramento/png/metodo-populacao/horizontal/metodo-populacao-horizontalxxxhdpi.png)
